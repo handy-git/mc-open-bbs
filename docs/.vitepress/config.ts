@@ -190,5 +190,11 @@ export default defineConfig<ThemeConfig>({
             heading: '共 {{searchResult}} 条结果'
         })]
     },
-    buildEnd: genFeed
+    buildEnd: genFeed,
+    // 站点地图
+    sitemap: {
+        hostname: 'https://app.mcbbs.top'
+    },
+    // 最后更新于
+    lastUpdated: true
 })
