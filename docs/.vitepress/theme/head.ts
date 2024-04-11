@@ -10,14 +10,6 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'referrer', content: 'no-referrer' }],
   ['script', { src: '/_vercel/insights/script.js' }],
   [
-    'script',
-    {},
-    `window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-QRQ5599P9G');`
-  ],
-  [
     "script",
     {
       nonce: "X3-MeXfNjwsxlQdQcRqhtQ",
