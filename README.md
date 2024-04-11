@@ -4,11 +4,16 @@
 
 欢迎pr自己资源 包括但不限于：服务端插件、服务端整合、联机教程、新闻资讯等
 
-提交资源规则
+## 提交资源教程
 
-在目录posts下对应月份里新增md文件,按照md语法编辑即可
+1. 找到目录/docs/posts
+2. 找到对应年月文件夹(无对应月份文件夹请新建)
+3. 新增一个md文件(英文命名)
+4. 参考之前文件来进行编辑内容
+5. 提交代码并pr到main分支,等待管理员合并
 
-格式示例 
+## MD格式示例
+
 ```
 ---
 post: true
@@ -36,4 +41,6 @@ description: 用于测试使用。
 
 ```
 
-在线体验：[https://app.mcbbs.top](https://app.mcbbs.top)
+## 在线体验
+
+[https://app.mcbbs.top](https://app.mcbbs.top)
