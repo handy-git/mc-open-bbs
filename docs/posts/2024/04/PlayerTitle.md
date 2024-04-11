@@ -7,7 +7,8 @@ coveross: https://img.fastmirror.net/s/2023/04/26/6448fb3e8b7cd.jpg
 categories:
     - 服务端插件
 tags:
-    - 测试标签
+    - Spigot
+    - Folia
 description: 一款有点好用的玩家称号插件
 ---
 
