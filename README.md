@@ -44,3 +44,8 @@ description: 用于测试使用。
 ## 在线体验
 
 [https://app.mcbbs.top](https://app.mcbbs.top)
+
+## 特别提醒
+
+图片请使用图床 推荐 [无极图床](https://img.fastmirror.net/upload)  
+下载请使用网盘 推荐 [阿里云盘](https://www.alipan.com/)
