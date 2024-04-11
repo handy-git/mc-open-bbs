@@ -10,17 +10,6 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'referrer', content: 'no-referrer' }],
   ['script', { src: '/_vercel/insights/script.js' }],
   [
-    'script',
-    {},
-    `var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?bf9f13ec72376c75ea9d913408ebc20d";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();`
-    ],
-  [
     "script",
     {
       crossorigin: "anonymous",
