@@ -11,10 +11,6 @@ export const head: HeadConfig[] = [
   ['script', { src: '/_vercel/insights/script.js' }],
   [
     'script',
-    { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QRQ5599P9G' }
-  ],
-  [
-    'script',
     {},
     `window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
