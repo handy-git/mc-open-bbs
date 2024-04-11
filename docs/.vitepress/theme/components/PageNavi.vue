@@ -45,14 +45,14 @@
           fill="currentColor"></path>
       </svg>其他</h4>
     <ul class="ul">
-      <li class="li" @click="choose('feed')"
-        :class="{ on: (page.relativePath == 'pages/feed.md' && selected === '') || selected === 'feed' }">
-        <a class="a" :href="withBase(`/pages/feed`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path
-              d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z"
-              fill="currentColor"></path>
-          </svg>订阅更新</a>
-      </li>
+<!--      <li class="li" @click="choose('feed')"-->
+<!--        :class="{ on: (page.relativePath == 'pages/feed.md' && selected === '') || selected === 'feed' }">-->
+<!--        <a class="a" :href="withBase(`/pages/feed`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">-->
+<!--            <path-->
+<!--              d="M3 3C12.9411 3 21 11.0589 21 21H18C18 12.7157 11.2843 6 3 6V3ZM3 10C9.07513 10 14 14.9249 14 21H11C11 16.5817 7.41828 13 3 13V10ZM3 17C5.20914 17 7 18.7909 7 21H3V17Z"-->
+<!--              fill="currentColor"></path>-->
+<!--          </svg>订阅更新</a>-->
+<!--      </li>-->
       <li class="li" @click="choose('tools')"
         :class="{ on: (page.relativePath == 'pages/tools.md' && selected === '') || selected === 'tools' }"><a class="a"
           :href="withBase(`/pages/tools`)"><svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

@@ -1,7 +1,7 @@
 ---
 post: true
 title: 3款开源的网页端仿掘金轻社区平台
-date: 2024-01-09
+date: 2024-04-09
 cover: https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlbsgc48k5j20k00dc79m.jpg
 coveross: https://cdn.enshimama.com/appbeebee/posts/iphone-pro-15-3d-mockups-free.gif
 categories:

@@ -2,13 +2,13 @@
   <!-- 公众号 -->
   <div class="gzharea">
     <div style="text-align: center;">
-      <p class="title">分享流行的前端产品</p>
-      <p style="margin-top: 5px;">技术｜源码｜设计｜参考</p>
+      <p class="title">基于开源分享我的世界资源</p>
+      <p style="margin-top: 5px;">插件｜教程｜整合包｜新闻等</p>
     </div>
     <div><img src="https://cdn.enshimama.com/appbeebee/posts/gzh.png" alt="公众号二维码" /></div>
     <div>
       <p>
-        扫码关注APP比比公众号</p>
+        扫码关注MCBBS公众号</p>
       <p style="margin-top: 5px;">
         第一时间传递给你</p>
     </div>

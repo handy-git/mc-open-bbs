@@ -9,7 +9,7 @@
                 <div class="copyright" v-if="website?.showFooter">
                     Copyright © {{ new Date().getFullYear() === 2023 ? '' : '2023-' }}{{ new Date().getFullYear() }} <a
                         class="title strong" :href="website?.link">{{ webTitle }}</a>
-                        <p class="source">由<a class="strong" href="https://vitepress.dev/" target="_blank">vitepress</a>构建。主题源代码可在<a class="strong" href="https://github.com/shiheme/appbeebee" target="_blank">GitHub</a>上获取。</p>
+                        <p class="source">由<a class="strong" href="https://vitepress.dev/" target="_blank">vitepress</a>构建。主题源代码可在<a class="strong" href="https://github.com/handyplus/appbeebee" target="_blank">GitHub</a>上获取。</p>
                     <a class="beian strong" target="_blank" v-if="website?.icpRecordCode"
                         href="https://beian.miit.gov.cn/">{{ website.icpRecordCode }}</a><template v-if="website?.publicSecurityRecordCode"> | </template><a class="beian strong"
                         target="_blank" v-if="website?.publicSecurityRecordCode"
@@ -19,7 +19,7 @@
 
         </div>
     </div>
-    <p id="result" v-if="website?.copyadd"><!-- 用户复制操作时进行添加预制文本 --></p> 
+    <p id="result" v-if="website?.copyadd"><!-- 用户复制操作时进行添加预制文本 --></p>
 </template>
 <script lang="ts" setup>
 import { onMounted } from 'vue'
@@ -44,7 +44,7 @@ onMounted(() => {
         }
     });
     }
-    
+
 });
 </script>
 
