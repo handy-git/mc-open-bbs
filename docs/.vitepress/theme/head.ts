@@ -8,6 +8,7 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' }],
   ['meta', { property: 'og:image', content: '/logo.png' }],
   ['meta', { name: 'referrer', content: 'no-referrer' }],
+  ['script', { src: '/_vercel/insights/script.js' }],
   [
     'script',
     {},
@@ -15,7 +16,7 @@ export const head: HeadConfig[] = [
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?bf9f13ec72376c75ea9d913408ebc20d";
-      var s = document.getElementsByTagName("script")[0]; 
+      var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();`
     ],

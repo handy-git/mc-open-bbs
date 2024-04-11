@@ -8,15 +8,15 @@ const baseUrl = `https://appbeebee.com`
 
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
-    title: 'APP比比',
-    description: '前端技术分享博客',
+    title: 'MCBBS',
+    description: '基于开源社区分享我的世界相关资源',
     id: baseUrl,
     link: baseUrl,
     language: 'zh',
     image: `${baseUrl}/logo.png`,
     favicon: `${baseUrl}/favicon.ico`,
     copyright:
-      'Copyright © 2023-'+ new Date().getFullYear() + ' APP比比'
+      'Copyright © 2024-'+ new Date().getFullYear() + ' MCBBS'
   })
 
   const posts = await createContentLoader('posts/*/*/*.md', {
