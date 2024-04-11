@@ -7,6 +7,8 @@ import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 import { inject } from "@vercel/analytics"
 
+inject();
+
 export default defineConfig<ThemeConfig>({
     lang: 'zh-cn',
     markdown: {
