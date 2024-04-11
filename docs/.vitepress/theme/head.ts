@@ -10,14 +10,6 @@ export const head: HeadConfig[] = [
   ['meta', { name: 'referrer', content: 'no-referrer' }],
   ['script', { src: '/_vercel/insights/script.js' }],
   [
-    "script",
-    {
-      crossorigin: "anonymous",
-      async: "",
-      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1279518235550313",
-    },
-  ],
-  [
     'script',
     { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QRQ5599P9G' }
   ],
