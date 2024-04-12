@@ -12,10 +12,6 @@ tags:
 description: 一款有点好用的玩家称号插件
 ---
 
-![适用核心](https://img.shields.io/badge/适用核心-Spigot|Folia-blue)
-![适用版本](https://img.shields.io/badge/适用版本-1.7.x--1.20.x-blue)
-![是否付费](https://img.shields.io/badge/是否付费-部分付费-blue)
-
 ### 一、简介
 
 > PlayerTitle是一款有点好用的玩家称号插件  
