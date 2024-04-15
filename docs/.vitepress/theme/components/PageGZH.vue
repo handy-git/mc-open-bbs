@@ -8,7 +8,7 @@
     <div><img src="https://ricedoc.handyplus.cn/img/logo.png" alt="公众号二维码" /></div>
     <div>
       <p>
-        扫码关注MCBBS公众号</p>
+        扫码关注MC开源共建社区公众号</p>
       <p style="margin-top: 5px;">
         第一时间传递给你</p>
     </div>

@@ -10,7 +10,7 @@ export const head: HeadConfig[] = [
     }],
     ['meta', {
         name: 'keywords',
-        content: 'MCBBS,我的世界,Minecraft'
+        content: 'MC开源共建社区,我的世界,Minecraft,MCBBS'
     }],
     ['meta', { property: 'og:image', content: '/logo.png' }],
     ['meta', { name: 'referrer', content: 'no-referrer' }],

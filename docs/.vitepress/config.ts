@@ -16,18 +16,18 @@ export default defineConfig<ThemeConfig>({
             })
         }
     },
-    title: 'MCBBS',
+    title: 'MC开源共建社区',
     base: '/',
     head,
     description: '基于开源社区分享我的世界相关资源',
     ignoreDeadLinks: true,
     themeConfig: {
-        beecodeurl: 'https://app.mcbbs.top/', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
+        beecodeurl: 'https://app.mcbbs.top', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
         sidebar: [{}], //这里如果删掉，左侧栏的内容全部不显示。页面布局会变成通栏
         nav: [
-            { text: '米饭文档', link: 'https://ricedoc.handyplus.cn' },
-            { text: 'MCBBS', link: 'https://www.mcbbs.top' },
-            { text: '开源共建', link: 'https://github.com/handyplus/appbeebee' }
+            { text: '米饭插件文档', link: 'https://ricedoc.handyplus.cn' },
+            { text: 'MC中文资源站', link: 'https://www.mcbbs.top' },
+            { text: '提交资源', link: 'https://github.com/handyplus/appbeebee' }
 
         ],
         music: [ //音乐列表，音乐播放器参数在.vitepress/store/player.ts。封面和歌词不支持可自行按照文章教程修改
@@ -139,7 +139,7 @@ export default defineConfig<ThemeConfig>({
         returnToTopLabel: '返回顶部',
         article: {
             cc: {
-                author: 'MCBBS', //此信息将显示在文章底部和博主卡片中
+                author: 'MC开源共建社区', //此信息将显示在文章底部和博主卡片中
                 authorLink: 'https://app.mcbbs.top',
                 license: '署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)',
                 licenseLink: 'https://creativecommons.org/licenses/by-sa/4.0/'
@@ -194,7 +194,5 @@ export default defineConfig<ThemeConfig>({
     // 站点地图
     sitemap: {
         hostname: 'https://app.mcbbs.top'
-    },
-    // 最后更新于
-    lastUpdated: true
+    }
 })
