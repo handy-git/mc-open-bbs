@@ -51,7 +51,7 @@
             </div>
 
           </div>
-          <div class="nickname"><a :href="theme?.article?.cc?.authorLink" target="_blank">博主：{{ theme?.article?.cc?.author
+          <div class="nickname"><a :href="theme?.article?.cc?.authorLink" target="_blank">{{ theme?.article?.cc?.author
           }}</a></div>
         </div>
         <div class="social">

@@ -49,7 +49,7 @@ description: 用于测试使用。
 
 ## 在线体验
 
-[https://app.mcbbs.top](https://app.mcbbs.top)
+[https://doc.mcbbs.top](https://doc.mcbbs.top)
 
 ## 特别提醒
 

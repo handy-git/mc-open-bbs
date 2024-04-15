@@ -4,7 +4,7 @@
     "description": "基于 vitepress 打造的开源社区分享我的世界相关资源",
     "author": "ヽ米 饭",
     "license": "MIT",
-    "homepage": "https://app.mcbbs.top/",
+    "homepage": "https://doc.mcbbs.top/",
     "repository": {
         "type": "git",
         "url": "https://github.com/handyplus/appbeebee"
