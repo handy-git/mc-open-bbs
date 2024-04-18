@@ -1,7 +1,7 @@
 ---
 post: true
 title: EssentialX
-date: 2024-4-18
+date: 2024-04-18
 cover: https://img.dslzl.eu.org/file/36f78a8791fe95a34f5ee.png
 categories: 
     - 服务端插件
