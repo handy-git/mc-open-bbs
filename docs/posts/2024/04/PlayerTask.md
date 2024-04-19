@@ -12,42 +12,38 @@ tags:
 description: 一款有点好用的玩家任务插件
 ---
 
-![Core Compatibility](https://img.shields.io/badge/Core_Compatibility-Spigot|Folia-blue)
-![Supported Versions](https://img.shields.io/badge/Supported_Versions-1.7.x--1.20.x-blue)
-![Paid](https://img.shields.io/badge/Paid-Partially-blue)
+### 一、简介
 
-### I. Introduction
-
-> PlayerTask is a somewhat useful player task plugin.
-> Admins can easily create daily tasks/NPC tasks/scroll tasks.
+> PlayerTask是一款有点好用的玩家任务插件    
+> 腐竹可方便创建每日任务/NPC任务/卷轴任务
 
 [![4omPVP.png](https://z3.ax1x.com/2021/09/30/4omPVP.png)](https://imgtu.com/i/4omPVP)
 
-1. Supports mysql and local sqlite storage (mysql recommended).
-2. Comes with a creation GUI, tasks can be created in the GUI.
-3. Comes with a player daily task GUI, players can view and complete tasks in the GUI.
-4. Completely customizable task objectives, a task can have multiple objectives.
-5. Task objectives support: Crafting (craftItem), Mining (blockBreak), Fishing (Fish), Placing (Interact), Consuming (consume), Killing (kill), Submitting (submit), etc.
-6. Completely customizable task rewards, a task can have multiple rewards.
-7. Sends actionbar to show task progress, sends title to remind task completion.
-8. Task rewards support: Coins (Vault), Tokens (PlayerPoints), Items (itemStack), Task Coins (coin), Custom Commands (command), etc.
-9. Task objectives, task list, and task rewards can be managed through GUI.
-10. Supports PlaceholderAPI variables.
-11. Supports spending coins/tokens to refresh daily task completions.
-12. Supports automatic item cloud translation, fully translated for 1.13+, manual configuration for lower versions in item.json.
-13. Task Coin Shop, customizable items for sale.
-14. This plugin is under continuous maintenance and development. Update logs are available.
+1. 支持mysql和本地sqlite存储(建议使用mysql)
+2. 自带创建gui,可在gui中进行任务的创建
+3. 自带玩家每日任务gui,可在gui中进行任务查看和完成
+4. 完全自定义任务目标, 一个任务可以有多个任务目标
+5. 任务目标支持: 合成(craftItem),挖掘(blockBreak),垂钓(Fish),放置(Interact),消耗(consume),击杀(kill),提交(submit)等
+6. 完全自定义任务奖励, 一个任务可以有多个任务奖励
+7. 会发送actionbar来发送任务进度,发送title来提醒任务完成
+8. 任务奖励支持: 金币(Vault),点券(PlayerPoints),物品(itemStack),任务币(coin),自定义命令(command)等
+9. 可通过gui进行任务目标,任务列表,任务奖励管理
+10. 支持变量PlaceholderAPI
+11. 支持消耗金币/点券刷新每日可完成任务
+12. 支持自动全物品云汉化,1.13+支持全汉化,低版本可在item.json手动配置汉化
+13. 任务币商城,可以自定义出售物品
+14. 本插件持续维护开发中 更新记录
 
-### II. [Usage Statistics](https://bstats.org/plugin/bukkit/PlayerTask/8144)
+### 二、[使用统计](https://bstats.org/plugin/bukkit/PlayerTask/8144)
 
-![Statistics](https://bstats.org/signatures/bukkit/PlayerTask.svg)
+![使用统计图片](https://bstats.org/signatures/bukkit/PlayerTask.svg)
 
-### III. Download
+### 三、下载
 
-[Click here to download](https://www.alipan.com/s/VSzoKNrp9ku)
+[点击前往下载](https://www.alipan.com/s/VSzoKNrp9ku)
 
-### IV. Documentation
+### 四、使用文档
 
-[Click here to view](/wiki/PlayerTask/README)
+[点击查看](https://ricedoc.handyplus.cn/wiki/PlayerTask/README)
 
 
