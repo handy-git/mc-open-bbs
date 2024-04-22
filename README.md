@@ -20,7 +20,7 @@
 
 ## MD格式示例
 
-```
+```text
 ---
 post: true
 title: 文章标题
