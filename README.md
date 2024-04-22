@@ -67,6 +67,7 @@ description: 用于测试使用。
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jianjianai"><img src="https://avatars.githubusercontent.com/u/59829816?v=4?s=100" width="100px;" alt="简简aw"/><br /><sub><b>简简aw</b></sub></a><br /><a href="#code-jianjianai" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/DSLZL"><img src="https://avatars.githubusercontent.com/u/92631890?v=4?s=100" width="100px;" alt="DSLZL"/><br /><sub><b>DSLZL</b></sub></a><br /><a href="#code-DSLZL" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
