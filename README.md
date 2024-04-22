@@ -57,3 +57,14 @@ description: 用于测试使用。
 
 图片请使用任意图床 推荐 [无极图床](https://img.fastmirror.net/upload)  [tg图床](https://github.com/cf-pages/Telegraph-Image)  
 文件请使用任意网盘 推荐 [阿里云盘](https://www.alipan.com/) [123云盘(不限速)](https://www.123pan.com)
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
