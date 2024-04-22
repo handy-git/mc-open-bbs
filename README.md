@@ -77,3 +77,7 @@ description: 用于测试使用。
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=handyplus/appbeebee&type=Date)](https://star-history.com/#handyplus/appbeebee&Date)
