@@ -1,4 +1,21 @@
 {
   "projectName": "appbeebee",
-  "projectOwner": "handyplus"
+  "projectOwner": "handyplus",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "jianjianai",
+      "name": "简简aw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59829816?v=4",
+      "profile": "https://github.com/jianjianai",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
