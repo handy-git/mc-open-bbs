@@ -9,6 +9,15 @@
   "contributorsPerLine": 7,
   "contributors": [
     {
+      "login": "handy-git",
+      "name": "handy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32837980?v=4",
+      "profile": "https://github.com/handy-git",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "jianjianai",
       "name": "简简aw",
       "avatar_url": "https://avatars.githubusercontent.com/u/59829816?v=4",
@@ -26,14 +35,5 @@
         "code"
       ]
     },
-    {
-      "login": "handy-git",
-      "name": "handy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32837980?v=4",
-      "profile": "https://github.com/handy-git",
-      "contributions": [
-        "code"
-      ]
-    }
   ]
 }
