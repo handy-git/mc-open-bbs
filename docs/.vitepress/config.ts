@@ -174,6 +174,9 @@ export default defineConfig<ThemeConfig>({
         logo: {
             light: '/logo.png',
             dark: '/logo.png'
+        },
+        lastUpdated: {
+            text: '最后更新于'
         }
     },
     srcExclude: ['README.md'],
