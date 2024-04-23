@@ -41,5 +41,3 @@ description: 一款有点好用的玩家强化插件
 ### 四、使用文档
 
 [点击查看](https://ricedoc.handyplus.cn/wiki/PlayerIntensify/README)
-
-

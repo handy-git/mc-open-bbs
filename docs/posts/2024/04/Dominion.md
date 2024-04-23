@@ -69,4 +69,3 @@ description: 新的领地插件，支持Folia！
 Mail: [zhangyuheng@lunadeer.cn](mailto:zhangyuheng@lunadeer.cn)
 
 QQ群：309428300
-

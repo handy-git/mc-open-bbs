@@ -58,5 +58,3 @@ description: 一款有点好用的玩家称号插件
 ### 五、使用文档
 
 [点击查看](https://ricedoc.handyplus.cn/wiki/PlayerTitle/README)
-
-

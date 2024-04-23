@@ -13,7 +13,7 @@ description: 一款有点好用的玩家任务插件
 
 ### 一、简介
 
-> PlayerTask是一款有点好用的玩家任务插件    
+> PlayerTask是一款有点好用的玩家任务插件
 > 腐竹可方便创建每日任务/NPC任务/卷轴任务
 
 [![4omPVP.png](https://z3.ax1x.com/2021/09/30/4omPVP.png)](https://imgtu.com/i/4omPVP)
@@ -44,5 +44,3 @@ description: 一款有点好用的玩家任务插件
 ### 四、使用文档
 
 [点击查看](https://ricedoc.handyplus.cn/wiki/PlayerTask/README)
-
-
