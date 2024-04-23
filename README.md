@@ -52,6 +52,10 @@ description: 用于测试使用。
 
 [MC开源共建社区](https://doc.mcbbs.top)
 
+## 本项目访问次数
+
+[![Page Views Count](https://badges.toozhao.com/badges/01HW559PQ1XARG4B04PJZ8Z341/green.svg)](https://badges.toozhao.com/stats/01HW559PQ1XARG4B04PJZ8Z341 "Get your own page views count badge on badges.toozhao.com")
+
 ## 特别提醒
 
 图片请使用任意图床 推荐 [无极图床](https://img.fastmirror.net/upload)  [tg图床](https://github.com/cf-pages/Telegraph-Image)  
