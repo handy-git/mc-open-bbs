@@ -3,7 +3,6 @@ post: true
 title: 第二个测试文章
 date: 2024-04-11
 cover: https://ricedoc.handyplus.cn/img/logo.png
-coveross: https://ricedoc.handyplus.cn/img/logo.png
 categories:
     - 服务端整合
 tags:

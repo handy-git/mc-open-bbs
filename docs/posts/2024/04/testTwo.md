@@ -3,7 +3,6 @@ post: true
 title: 第三个测试文章
 date: 2024-04-11
 cover: https://ricedoc.handyplus.cn/img/logo.png
-coveross: https://ricedoc.handyplus.cn/img/logo.png
 categories:
     - 联机教程
 tags:

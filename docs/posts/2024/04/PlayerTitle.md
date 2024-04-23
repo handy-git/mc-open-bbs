@@ -3,7 +3,6 @@ post: true
 title: PlayerTitle
 date: 2024-04-11
 cover: https://img.fastmirror.net/s/2023/04/26/6448fb3e8b7cd.jpg
-coveross: https://img.fastmirror.net/s/2023/04/26/6448fb3e8b7cd.jpg
 categories:
     - 服务端插件
 tags:

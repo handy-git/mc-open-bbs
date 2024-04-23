@@ -2,7 +2,6 @@
 post: true
 date: 2024-04-11
 cover: https://jjaw.cn/assets/attach-siQjoJy5.gif
-coveross: https://github.com/handyplus/appbeebee/assets/59829816/7fa2e845-25ea-4db0-9281-bf237a6e7b72
 categories:
     - 服务端插件
 tags:

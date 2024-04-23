@@ -5,8 +5,6 @@ title: Dominion - 新的领地插件，支持Folia！
 date: 2024-04-23
 # 文章LOGO的uri地址
 cover: https://ssl.lunadeer.cn:14437/i/2024/04/23/662729db7fd3f.png
-# 文章LOGO的uri地址
-coveross: https://ssl.lunadeer.cn:14437/i/2024/04/23/662729db7fd3f.png
 # 文章类目
 categories:
     - 服务端插件

@@ -3,7 +3,6 @@ post: true
 title: PlayerIntensify
 date: 2024-04-19
 cover: https://ricedoc.handyplus.cn/wiki/PlayerIntensify.svg
-coveross: https://ricedoc.handyplus.cn/wiki/PlayerIntensify.svg
 categories:
     - 服务端插件
 tags:

@@ -2,7 +2,7 @@
 
 基于开源社区分享我的世界相关资源
 
-欢迎pr自己资源 包括但不限于：服务端插件、服务端整合、联机教程、新闻资讯等
+欢迎pr自己资源 包括但不限于：服务端插件、服务端整合、联机教程、新闻资讯等各种MC相关内容
 
 ## 提交资源教程
 
@@ -28,8 +28,6 @@ title: 文章标题
 date: 2024-04-11
 # 文章LOGO的uri地址
 cover: https://ricedoc.handyplus.cn/img/logo.png
-# 文章LOGO的uri地址
-coveross: https://ricedoc.handyplus.cn/img/logo.png
 # 文章类目
 categories:
     - 新闻资讯

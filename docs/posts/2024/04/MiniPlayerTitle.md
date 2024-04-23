@@ -5,8 +5,6 @@ title: MiniPlayerTitle - 玩家称号，支持Folia！
 date: 2024-04-23
 # 文章LOGO的uri地址
 cover: https://ssl.lunadeer.cn:14437/i/2024/04/23/66272ac499e0c.png
-# 文章LOGO的uri地址
-coveross: https://ssl.lunadeer.cn:14437/i/2024/04/23/66272ac499e0c.png
 # 文章类目
 categories:
     - 服务端插件

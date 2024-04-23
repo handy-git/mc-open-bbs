@@ -159,7 +159,7 @@ export default defineConfig<ThemeConfig>({
             showUserCard: false, //是否显示列表中的博主名片
             cardPosition: 3, //显示在第几个位置
             cardMusic: true, //是否显示播放音乐，音乐列表在上面 music中配置
-            cardCoffee: true, //是否显示打赏咖啡，
+            cardCoffee: false, //是否显示打赏咖啡，
             coffeeQrcode: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hm0f859sm6j208c08cabm.jpg', //打赏咖啡二维码图片地址。如果是跳转网页地址需自行修改代码
             showLantern: false, //是否显示灯笼挂件
             lanternText: ['新', '年'], //灯笼上的字,数组形式
@@ -169,7 +169,7 @@ export default defineConfig<ThemeConfig>({
             showFooter: true, //是否显示全局底部信息
             icpRecordCode: '晋ICP备19010136号-4',  //网站备案号
             publicSecurityRecordCode: '', //公安备案号
-            link: 'https://doc.mcbbs.top/'
+            link: 'https://doc.mcbbs.top'
         },
         logo: {
             light: '/logo.png',

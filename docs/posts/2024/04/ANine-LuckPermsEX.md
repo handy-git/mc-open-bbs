@@ -5,8 +5,6 @@ title: ANine-LuckPermsEX - 九之称号的LP称号支持
 date: 2024-04-23
 # 文章LOGO的uri地址
 cover: https://img2.imgtp.com/2024/04/23/xwvxHoWX.png
-# 文章LOGO的uri地址
-coveross: https://img2.imgtp.com/2024/04/23/xwvxHoWX.png
 # 文章类目
 categories:
     - 服务端插件

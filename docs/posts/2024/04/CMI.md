@@ -3,7 +3,6 @@ post: true
 title: CMI
 date: 2024-04-19
 cover: https://www.spigotmc.org/data/resource_icons/3/3742.jpg?1546345348
-coveross: https://www.spigotmc.org/data/resource_icons/3/3742.jpg?1546345348
 categories: 
     - 服务端插件
 tags:
