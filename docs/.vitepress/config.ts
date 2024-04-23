@@ -155,13 +155,13 @@ export default defineConfig<ThemeConfig>({
             welcome: {
                 autoClose: 6000 //多长时间自动关闭，false为不关闭
             },
-            showSnow: true, //是否开启雪花。开启后仅在暗黑模式下显示
+            showSnow: false, //是否开启雪花。开启后仅在暗黑模式下显示
             showUserCard: false, //是否显示列表中的博主名片
             cardPosition: 3, //显示在第几个位置
             cardMusic: true, //是否显示播放音乐，音乐列表在上面 music中配置
             cardCoffee: true, //是否显示打赏咖啡，
             coffeeQrcode: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hm0f859sm6j208c08cabm.jpg', //打赏咖啡二维码图片地址。如果是跳转网页地址需自行修改代码
-            showLantern: true, //是否显示灯笼挂件
+            showLantern: false, //是否显示灯笼挂件
             lanternText: ['新', '年'], //灯笼上的字,数组形式
             showFirework: false, //是否显示侧栏烟花特效
             fireworkTitle: '🧨烟花许愿🧨｜②⓪②④新年', //烟花许愿标题
