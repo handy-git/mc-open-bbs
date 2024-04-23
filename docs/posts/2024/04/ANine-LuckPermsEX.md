@@ -1,6 +1,6 @@
 ---
 post: true
-title: 文章标题
+title: ANine-LuckPermsEX - 九之称号的LP称号支持
 # 文章发布时间
 date: 2024-04-23
 # 文章LOGO的uri地址
@@ -13,6 +13,8 @@ categories:
 # 文章标签可多个
 tags:
     - 插件推荐
+    - paper
+    - spigot
 # 文章的简介
 description: ANine-LuckPermsEX可以把Anine称号同步到LP权限插件的称号上
 ---
@@ -36,3 +38,7 @@ ANine作者写的ANine-TitleExtend也可以做到这点
 ### 四、下载
 
 [点击前往下载](https://lipind.dns.navy:5001/d/f/814678111726647544)
+
+
+### 五、催更
+作者：[lipind@foxmail.com](mailto:lipind@foxmail.com)
