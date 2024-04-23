@@ -26,8 +26,8 @@ post: true
 title: 文章标题
 # 文章发布时间
 date: 2024-04-11
-# 文章LOGO的uri地址
-cover: https://ricedoc.handyplus.cn/img/logo.png
+# 文章LOGO的URL地址-如无可用下面的默认地址
+cover: /static/img/minecraft.svg
 # 文章类目
 categories:
     - 新闻资讯

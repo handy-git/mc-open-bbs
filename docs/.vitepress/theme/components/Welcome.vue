@@ -8,9 +8,9 @@
         <div class="div">
             <!-- <button class="button" @click="($event) => { closeToast && closeToast($event) }">免费领取</button> -->
             <a class="button" href="https://mp.weixin.qq.com/s/TDtZuwuYhrxjWoNGNWTbQQ" target="_blank">免费领取</a>
-            <a class="a" href="https://mp.weixin.qq.com/s/TDtZuwuYhrxjWoNGNWTbQQ" target="_blank"><img class="image" src="/static/img/redcovers.png" alt="" /></a>
+            <a class="a" href="https://mp.weixin.qq.com/s/TDtZuwuYhrxjWoNGNWTbQQ" target="_blank"><img class="image" src="/logo.png" alt="" /></a>
         </div>
-            
+
     </div>
 </template>
 
@@ -37,7 +37,7 @@ const props = defineProps({
         font-size: .875rem;
         line-height: 1.5rem;
         font-weight: 600;
-        
+
         .span {
             opacity: .6;
         }
