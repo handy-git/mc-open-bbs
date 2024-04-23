@@ -2,7 +2,7 @@
 post: true
 title: 第三个测试文章
 date: 2024-04-11
-cover: /static/img/minecraft.svg
+cover: https://doc.mcbbs.top/static/img/minecraft.svg
 categories:
     - 联机教程
 tags:
