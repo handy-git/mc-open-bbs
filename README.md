@@ -68,7 +68,6 @@ description: 用于测试使用。
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/DSLZL"><img src="https://avatars.githubusercontent.com/u/92631890?v=4?s=100" width="100px;" alt="DSLZL"/><br /><sub><b>DSLZL</b></sub></a><br /><a href="#code-DSLZL" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/handy-git"><img src="https://avatars.githubusercontent.com/u/32837980?v=4?s=100" width="100px;" alt="handy"/><br /><sub><b>handy</b></sub></a><br /><a href="#code-handy-git" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lipind"><img src="https://avatars.githubusercontent.com/u/98028461?v=4?s=100" width="100px;" alt="lipind"/><br /><sub><b>lipind</b></sub></a><br /><a href="#code-lipind" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/lipind"><img src="https://avatars.githubusercontent.com/u/98028461?v=4?s=100" width="100px;" alt="lipind"/><br /><sub><b>lipind</b></sub></a><br /><a href="#code-lipind" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Guailoudou"><img src="https://avatars.githubusercontent.com/u/108342285?v=4?s=100" width="100px;" alt="Guailoudou"/><br /><sub><b>Guailoudou</b></sub></a><br /><a href="#code-Guailoudou" title="Code">💻</a></td>
     </tr>
   </tbody>
