@@ -64,58 +64,13 @@ export default defineConfig<ThemeConfig>({
                 'lrc': ''
             }
         ],
-        // banner: [ //主页轮播，不需要就注释掉
+        // banner: [ //主页轮播
         //     {
-        //         link: '/posts/2024/04/freebie-chinese-font.html',
-        //         image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
-        //         title: ''
-        //     },
-        //     {
-        //         link: '/posts/2024/04/freebie-chinese-font.html',
-        //         image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
+        //         link: 'https://doc.mcbbs.top',
+        //         image: '/static/img/banner.png',
         //         title: ''
         //     }
         // ],
-        // search: {
-        //     provider: 'local',
-        //     options: {
-        //         miniSearch: {
-        //             /**
-        //              * @type {Pick<import('minisearch').Options, 'extractField' | 'tokenize' | 'processTerm'>}
-        //              */
-        //             options: {
-        //             },
-        //             /**
-        //              * @type {import('minisearch').SearchOptions}
-        //              * @default
-        //              * { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
-        //              */
-        //             searchOptions: {
-        //               /* ... */
-        //             }
-        //           },
-
-        //         locales: {
-        //             root: {
-        //                 translations: {
-        //                     button: {
-        //                         buttonText: '搜索文档',
-        //                         buttonAriaLabel: '搜索文档'
-        //                     },
-        //                     modal: {
-        //                         noResultsText: '无法找到相关结果',
-        //                         resetButtonTitle: '清除查询条件',
-        //                         footer: {
-        //                             selectText: '选择',
-        //                             navigateText: '切换',
-        //                             closeText: '关闭'
-        //                         }
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // },
         outlineTitle: '目录',
         socialLinks: [
             {
@@ -142,7 +97,7 @@ export default defineConfig<ThemeConfig>({
         website: {
             copyadd: false, //用户复制页面内容时尾巴自动添加版权声明
             perpage: 12, //列表页每页显示数量
-            homeBanner: true, //显示首页 banner,banner列表在上面 banner中配置
+            homeBanner: false, //显示首页 banner,banner列表在上面 banner中配置
             bannerHeight: 200, //banner高度
             showWelcome: false, //是否显示首页底部右下角弹框，（调试时弹框不显示的话先关闭浏览器再运行，因为有可能开启了缓存）内容请在组件.vitepress/theme/components/Welcome.vue编写
             welcomeusestate: false, //底部弹框是否使用sessionStorage缓存(即不关闭页面仅显示一次)
