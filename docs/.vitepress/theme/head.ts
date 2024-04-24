@@ -14,6 +14,7 @@ export const head: HeadConfig[] = [
     }],
     ['meta', { property: 'og:image', content: '/logo.png' }],
     ['meta', { name: 'referrer', content: 'no-referrer' }],
+    ['script', { src: '/_vercel/insights/script.js' }],
     ['link', { rel: 'stylesheet', href: '/static/css/fancybox.css' }], //全局控制图片放大样式
     ['script', { src: '/static/js/fancybox.umd.js' }]  //全局控制图片放大交互
 ]

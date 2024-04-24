@@ -22,6 +22,7 @@
   ],
   "type": "module",
   "devDependencies": {
+    "@vercel/analytics": "^1.2.2",
     "@types/node": "^20.10.3",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
     "@typescript-eslint/parser": "^6.13.1",
