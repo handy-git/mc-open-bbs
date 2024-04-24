@@ -3,7 +3,7 @@ post: true
 title: Vault
 date: 2024-04-23
 cover: https://www.spigotmc.org/data/resource_icons/34/34315.jpg?1483592228
-categories: 
+categories:
     - 服务端插件
 tags:
     - 插件推荐
@@ -17,25 +17,25 @@ Vault 是一个权限、聊天和经济 API，它让插件可以轻松地连接�
 ### 配置
 
 - 更新检查
-  - 打开/关闭更新检查器
+    - 打开/关闭更新检查器
 
 ### 权限
 
 - vault.admin
-  - 允许访问 Vault 信息和转换命令
-  - defaults to OP 默认为 OP
+    - 允许访问 Vault 信息和转换命令
+    - defaults to OP 默认为 OP
 - vault.update
-  - 当保险柜有更新时，任何拥有此权限的人都会收到通知
-  - defaults to OP 默认为 OP
-  - **在permissions.yml中设置为 false 将禁用控制台的版本检查消息**
+    - 当保险柜有更新时，任何拥有此权限的人都会收到通知
+    - defaults to OP 默认为 OP
+    - **在permissions.yml中设置为 false 将禁用控制台的版本检查消息**
 
 ## Vault目前支持
 
 - 权限: Permissions 3, [bPermissions](http://dev.bukkit.org/server-mods/bpermissions/), [PEX](http://dev.bukkit.org/server-mods/permissionsex), [GroupManager](http://dev.bukkit.org/server-mods/groupmanager), [PermissionsBukkit](http://dev.bukkit.org/server-mods/permbukkit), [zPermission](http://dev.bukkit.org/server-mods/zpermissions), SimplyPerms, [Privileges](http://dev.bukkit.org/server-mods/Privileges), [DroxPerms](http://dev.bukkit.org/server-mods/DroxPerms), xPerms
 - 经济: [iConomy](http://dev.bukkit.org/server-mods/iconomy) 4,5,6, [BOSEconomy](http://dev.bukkit.org/server-mods/boseconomy) 6 & 7, EssentialsEcon, 3Co, [MultiCurrency](http://dev.bukkit.org/server-mods/multicurrency), [MineConomy](http://dev.bukkit.org/server-mods/mineconomy), [eWallet](http://dev.bukkit.org/server-mods/ewallet), [EconXP](http://dev.bukkit.org/server-mods/econxp/), [CurrencyCore](http://dev.bukkit.org/server-mods/currency/), [CraftConomy](http://dev.bukkit.org/server-mods/craftconomy/), AEco, [Gringotts](http://dev.bukkit.org/server-mods/gringotts/)
-  - 仅支持 CraftConomy、CurrencyCore、BOSE 和 iCo6 的银行
-  - iCo6/CurrencyCore 使用合并的玩家/银行账户。建议将 BOSE 用于功能齐全的银行
-  - iCo6 flatfile 存在严重错误，使用风险自负
+    - 仅支持 CraftConomy、CurrencyCore、BOSE 和 iCo6 的银行
+    - iCo6/CurrencyCore 使用合并的玩家/银行账户。建议将 BOSE 用于功能齐全的银行
+    - iCo6 flatfile 存在严重错误，使用风险自负
 - 聊天: [Herochat](https://www.spigotmc.org/resources/herochat-multi-server-chat-channels-and-more-75-off.34305/), [mChat](http://dev.bukkit.org/server-mods/mchat), iChat, [bPermissions](http://dev.bukkit.org/server-mods/bpermissions/), [PEX](http://dev.bukkit.org/server-mods/permissionsex), P3, [DroxPerms](http://dev.bukkit.org/server-mods/DroxPerms)
 - 其他经济/权限系统可能内置了对保险柜的支持，请与检查以确保是否支持
 

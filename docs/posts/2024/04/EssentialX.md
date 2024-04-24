@@ -3,7 +3,7 @@ post: true
 title: EssentialsX
 date: 2024-04-18
 cover: https://img.dslzl.eu.org/file/36f78a8791fe95a34f5ee.png
-categories: 
+categories:
     - 服务端插件
 tags:
     - 插件推荐

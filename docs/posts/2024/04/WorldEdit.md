@@ -3,7 +3,7 @@ post: true
 title: WorldEdit
 date: 2024-04-23
 cover: https://media.forgecdn.net/avatars/308/39/637390518902846753.png
-categories: 
+categories:
     - 服务端插件
 tags:
     - 插件推荐
