@@ -2,7 +2,7 @@
 post: true
 title: 使用新版opl联机mc教程
 date: 2024-04-23 16:05:39
-cover: https://doc.mcbbs.top/static/img/minecraft.svg
+cover: https://doc.mcbbs.top/logo.png
 categories:
     - 联机教程
 tags:
