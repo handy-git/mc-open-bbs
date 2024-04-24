@@ -19,7 +19,7 @@ export default defineConfig<ThemeConfig>({
     title: 'MC开源共建社区',
     base: '/',
     head,
-    description: '基于开源社区分享我的世界相关资源',
+    description: '基于开源社区分享我的世界相关资源,MCBBS,我的世界插件下载,我的世界技术论坛,Minecraft资源开发,我的世界资源开发,Minecraft技术论坛,MC技术论坛,MC论坛,我的世界论坛,我的世界社区,我的世界中文论坛',
     ignoreDeadLinks: true,
     themeConfig: {
         beecodeurl: 'https://doc.mcbbs.top', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
