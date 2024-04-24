@@ -146,5 +146,6 @@ export default defineConfig<ThemeConfig>({
     // 站点地图
     sitemap: {
         hostname: 'https://doc.mcbbs.top'
-    }
+    },
+    lastUpdated: false
 })
