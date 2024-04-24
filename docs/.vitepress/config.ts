@@ -147,5 +147,5 @@ export default defineConfig<ThemeConfig>({
     sitemap: {
         hostname: 'https://doc.mcbbs.top'
     },
-    lastUpdated: false
+    lastUpdated: true
 })
