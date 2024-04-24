@@ -36,7 +36,6 @@
     },
     "dependencies": {
         "@vercel/analytics": "^1.2.2",
-        "@vercel/speed-insights": "^1.0.10",
         "blueimp-md5": "^2.19.0",
         "dayjs": "^1.11.10",
         "feed": "^4.2.2",
