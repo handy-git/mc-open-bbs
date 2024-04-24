@@ -4,7 +4,7 @@ import { writeFileSync } from 'fs'
 import { Feed } from 'feed'
 import { createContentLoader, type SiteConfig } from 'vitepress'
 
-const baseUrl = `https://appbeebee.com`
+const baseUrl = `https://doc.mcbbs.top`
 
 export async function genFeed(config: SiteConfig) {
   const feed = new Feed({
