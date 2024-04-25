@@ -16,8 +16,8 @@
 
 ## 本地预览(如无前端基础可跳过本步骤)
 
-1. 执行 yarn install 或 npm install
-2. 执行 yarn run dev 或 npm run dev
+1. 执行 yarn install
+2. 执行 yarn run dev
 
 ## MD格式示例
 
