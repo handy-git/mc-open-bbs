@@ -30,92 +30,13 @@ export default defineConfig<ThemeConfig>({
             { text: '提交资源', link: 'https://github.com/handyplus/appbeebee' }
 
         ],
-        music: [ //音乐列表，音乐播放器参数在.vitepress/store/player.ts。封面和歌词不支持可自行按照文章教程修改
-            // {
-            //     "id": 1,
-            //     "title": "陷落Falling",
-            //     "author": "不知名选手Au / 马也_Crabbit",
-            //     "url": "https://res.wx.qq.com/voice/getvoice?mediaid=MzUzMDUzMjQyMl8xMDAwMDE0Nzk=",
-            //     "pic": "https://enshimama.oss-cn-shanghai.aliyuncs.com/smartgallery/music/01.jpg",
-            //     "lrc": ""
-            // },
-            // {
-            //     "id": 2,
-            //     "title": "一个人想着一个人 ",
-            //     "author": "如懿",
-            //     "url": "https://res.wx.qq.com/voice/getvoice?mediaid=MzUzMDUzMjQyMl8xMDAwMDE0ODA=",
-            //     "pic": "https://enshimama.oss-cn-shanghai.aliyuncs.com/smartgallery/music/02.jpg",
-            //     "lrc": ""
-            // },
-            // {
-            //     "id": 3,
-            //     "title": "夜车（Cover 曾轶可）",
-            //     "author": "姜铭杨",
-            //     "url": "https://res.wx.qq.com/voice/getvoice?mediaid=MzUzMDUzMjQyMl8xMDAwMDE0ODE=",
-            //     "pic": "https://enshimama.oss-cn-shanghai.aliyuncs.com/smartgallery/music/03.jpg",
-            //     "lrc": ""
-            // },
-            {
-                "id": 4,
-                "title": "迎春花 / 財神到 / 祝福你 (廣東)",
-                "author": "邓丽君 / 林子祥 / 甄妮",
-                "url": "https://res.wx.qq.com/voice/getvoice?mediaid=MzUzMDUzMjQyMl8xMDAwMDE4NTI=",
-                "pic": "",
-                "lrc": ""
-            }
-        ],
         banner: [ //主页轮播，不需要就注释掉
             {
                 link: '/posts/2024/04/freebie-chinese-font.html',
                 image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
                 title: ''
-            },
-            {
-                link: '/posts/2024/04/freebie-chinese-font.html',
-                image: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hlxg58m6w3j21z40m8dis.jpg',
-                title: ''
             }
         ],
-        // search: {
-        //     provider: 'local',
-        //     options: {
-        //         miniSearch: {
-        //             /**
-        //              * @type {Pick<import('minisearch').Options, 'extractField' | 'tokenize' | 'processTerm'>}
-        //              */
-        //             options: {
-        //             },
-        //             /**
-        //              * @type {import('minisearch').SearchOptions}
-        //              * @default
-        //              * { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
-        //              */
-        //             searchOptions: {
-        //               /* ... */
-        //             }
-        //           },
-
-        //         locales: {
-        //             root: {
-        //                 translations: {
-        //                     button: {
-        //                         buttonText: '搜索文档',
-        //                         buttonAriaLabel: '搜索文档'
-        //                     },
-        //                     modal: {
-        //                         noResultsText: '无法找到相关结果',
-        //                         resetButtonTitle: '清除查询条件',
-        //                         footer: {
-        //                             selectText: '选择',
-        //                             navigateText: '切换',
-        //                             closeText: '关闭'
-        //                         }
-        //                     }
-        //                 }
-        //             }
-        //         }
-        //     }
-        // },
         outlineTitle: '目录',
         socialLinks: [
             {
@@ -152,7 +73,6 @@ export default defineConfig<ThemeConfig>({
             showSnow: false, //是否开启雪花。开启后仅在暗黑模式下显示
             showUserCard: false, //是否显示列表中的博主名片
             cardPosition: 3, //显示在第几个位置
-            cardMusic: true, //是否显示播放音乐，音乐列表在上面 music中配置
             cardCoffee: false, //是否显示打赏咖啡，
             coffeeQrcode: 'https://image.baidu.com/search/down?url=https://fc.sinaimg.cn/large/6364aa43gy1hm0f859sm6j208c08cabm.jpg', //打赏咖啡二维码图片地址。如果是跳转网页地址需自行修改代码
             showLantern: false, //是否显示灯笼挂件

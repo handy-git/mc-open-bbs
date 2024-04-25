@@ -5,12 +5,12 @@
             <!-- 页面不存在 -->
                 <div class="page404">
                     <PageASide type="page404" />
-                    
+
                 </div>
         </template>
         <template #layout-top>
             <ClientOnly><!-- 在布局下方添加 -->
-                
+
                 <div class="snow" v-if="theme.website?.showSnow&&isDark">
                     <div v-for="index in 80" :key="index" class="dot"></div>
                 </div>
@@ -25,20 +25,13 @@
         </template>
         <template #nav-bar-content-before>
 
-            <!-- 在导航搜索框💰添加 -->
-            <ClientOnly>
-                <div v-if="!isPause" class="" style="padding-left: 32px;position: relative;height:40px;margin-right:0px;">
-                    <Player />
-                </div>
-            </ClientOnly>
-
         </template>
         <template #nav-bar-title-after>
             <!-- 在标题后添加 -->
         </template>
         <template #sidebar-nav-before>
             <PageNavi />
-           
+
                 <div class="fireworkwrap">
                     <Firework></Firework>
                 </div>
@@ -51,23 +44,22 @@
         <template #doc-before>
                 <Home v-if="frontmatter?.index" />
                 <ArticleBread v-if="(frontmatter?.post)" :article="page" />
-                <ArticleMetadata v-if="(frontmatter?.post)" type="single" :article="page" :key="md5(page.relativePath)" />
+                <ArticleMetadata v-if="(frontmatter?.post)" type="single" :article="page" />
         </template>
         <template #aside-bottom>
             <ClientOnly>
-                
+
                 <!-- <ArticleLink v-if="(frontmatter?.post)" :key="md5(page.relativePath)" /> -->
                 <PageASide v-if="(frontmatter.index)" />
             </ClientOnly>
                 <PageGZH />
                 <!-- <Links v-if="(frontmatter.index)" /> -->
-            
+
         </template>
         <template #doc-footer-before>
-           
+
                 <ArticleCC v-if="(frontmatter?.post)" />
-                <ArticleRelate v-if="(frontmatter?.post)" :key="md5(page.relativePath)" />
-  
+
         </template>
         <template #doc-bottom>
             <Copyright />
@@ -75,15 +67,10 @@
     </Layout>
 </template>
 <script lang="ts" setup>
-import { computed, toRefs,onMounted,ref } from 'vue';
 import { useData, useRouter } from 'vitepress';
-import { usePlayerStore } from '../../store/player';
-import md5 from 'blueimp-md5';
 import DefaultTheme from 'vitepress/theme'
 import Copyright from './Copyright.vue'
-import Player from './Player.vue';
 
-const { isPause } = toRefs(usePlayerStore());
 const { page, theme, frontmatter, isDark } = useData();
 const { Layout } = DefaultTheme
 

@@ -1,14 +1,10 @@
 <template>
   <!-- 首页以及 404 页面模块调用。一个CSS卡通名片，带动画交互 -->
   <div class="pageaside">
-    <div class="notfoundarea" v-if="type === 'page404'">
-      <p class="code">404</p>
-      <p>糟糕！页面不见了～</p>
-    </div>
     <div class="acontent" :style="{
-      'padding-bottom': type !== 'articlelist' ? '220px' : '122px'
+      'padding-bottom': '220px'
     }">
-      <div class="authorarea" :class="{ happy: !isPause }">
+      <div class="authorarea">
         <div class="author">
               <img src="https://doc.mcbbs.top/logo.svg" alt="logo">
 
@@ -33,25 +29,6 @@
         </div>
         <div class="social">
           <ul class="ul">
-            <template v-if="theme.website?.cardMusic">
-              <li class="li" v-if="isPause" @click="togglePlay">
-
-                <div class="group">
-                  <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                      d="M19.376 12.4161L8.77735 19.4818C8.54759 19.635 8.23715 19.5729 8.08397 19.3432C8.02922 19.261 8 19.1645 8 19.0658V4.93433C8 4.65818 8.22386 4.43433 8.5 4.43433C8.59871 4.43433 8.69522 4.46355 8.77735 4.5183L19.376 11.584C19.6057 11.7372 19.6678 12.0477 19.5146 12.2774C19.478 12.3323 19.4309 12.3795 19.376 12.4161Z"
-                      fill="currentColor"></path>
-                  </svg>播放音乐<span class="VPBadge warning strong mini">新年歌</span>
-                </div>
-              </li>
-              <li class="li" v-else @click="togglePlay">
-                <div class="group">
-                  <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M6 5H8V19H6V5ZM16 5H18V19H16V5Z" fill="currentColor"></path>
-                  </svg>停止音乐
-                </div>
-              </li>
-            </template>
             <template v-if="theme.website?.cardCoffee">
               <li class="li" @click="coffeepay" style="position: relative;">
                 <div v-if="pay" class="specialpop"
@@ -86,7 +63,7 @@
             </template>
           </ul>
         </div>
-        <div class="total" v-if="type !== 'articlelist'">
+        <div class="total">
           <div class="cell views">
             <strong class="strong">9999+</strong>
             <span class="span">访问</span>
@@ -108,22 +85,9 @@
 <script lang="ts" setup>
 import { ref, onMounted, computed, toRefs } from 'vue'
 import { useData } from 'vitepress';
-import { usePlayerStore } from '../../store/player';
-import type { Song } from '../../theme/types';
 import { data as themeposts } from '../posts.data'
-const { theme, frontmatter } = useData();
-const { pushPlayList } = usePlayerStore();
-const {
-  togglePlay,
-  isPause
-} = toRefs(usePlayerStore());
-const songList = ref<Song[]>();
-songList.value = theme.value?.music ? theme.value.music : [];
-pushPlayList(true, ...songList.value);
-const props = defineProps<{
-  type?: string
-}>();
-const talkword = ref('听歌让我快乐')
+const { theme } = useData();
+
 const movementx = ref(50)
 const movementy = ref(50)
 const pay = ref(false)
