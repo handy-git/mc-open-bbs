@@ -10,30 +10,9 @@
     }">
       <div class="authorarea" :class="{ happy: !isPause }">
         <div class="author">
-          <div class="avator" :class="{ pay: pay }" v-tooltip="talkword">
-            <div class="light"></div>
-            <div class="pods" v-if="!isPause"></div>
-            <div class="eyesContainer">
-              <div class="eyes ani">
-                <div class="pupil" :style="{
-                  left: movementx + '%',
-                  top: movementy + '%',
-                  transform: 'translate(-' + movementx + '%, -' + movementy + '%)'
-                }">
-                </div>
-              </div>
-              <div class="eyes ani">
-                <div class="pupil" :style="{
-                  left: movementx + '%',
-                  top: movementy + '%',
-                  transform: 'translate(-' + movementx + '%, -' + movementy + '%)'
-                }">
-                </div>
-              </div>
-              <div class="eyelid"></div>
-              <div class="eyelid"></div>
-            </div>
-            <div class="coffee" v-if="pay">
+              <img src="https://doc.mcbbs.top/logo.svg" alt="logo">
+
+              <div class="coffee" v-if="pay">
 
               <svg width="26.6518281px" height="38.5822903px" viewBox="0 0 26.6518281 38.5822903" version="1.1"
                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -48,11 +27,9 @@
                   </g>
                 </g>
               </svg>
-            </div>
 
-          </div>
-          <div class="nickname"><a :href="theme?.article?.cc?.authorLink" target="_blank">{{ theme?.article?.cc?.author
-          }}</a></div>
+            </div>
+          <div class="nickname"><a :href="theme?.article?.cc?.authorLink" target="_blank">{{ theme?.article?.cc?.author }}</a></div>
         </div>
         <div class="social">
           <ul class="ul">
