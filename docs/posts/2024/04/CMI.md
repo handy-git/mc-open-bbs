@@ -6,7 +6,7 @@ cover: https://www.spigotmc.org/data/resource_icons/3/3742.jpg?1546345348
 categories:
     - 服务端插件
 tags:
-    - 插件推荐
+    - 搬运插件
 description: CMI是一个用于 Minecraft 服务器端的插件，提供各种各样的功能,可完全取代EssentialX,且支持高度自定义
 ---
 

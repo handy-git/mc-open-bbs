@@ -10,9 +10,7 @@ categories:
     - 服务端插件
 # 文章标签可多个
 tags:
-    - Folia
-    - 插件推荐
-    - 领地
+    - 搬运插件
 # 文章的简介
 description: 新的领地插件，支持Folia！
 ---

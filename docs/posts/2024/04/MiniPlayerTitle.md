@@ -1,18 +1,12 @@
 ---
 post: true
 title: MiniPlayerTitle - 玩家称号，支持Folia！
-# 文章发布时间
 date: 2024-04-23
-# 文章LOGO的uri地址
 cover: https://ssl.lunadeer.cn:14437/i/2024/04/23/66272ac499e0c.png
-# 文章类目
 categories:
     - 服务端插件
-# 文章标签可多个
 tags:
-    - Folia
-    - 插件推荐
-    - 称号
+    - 原创插件
 # 文章的简介
 description: PlayerTitle 青春版，支持Folia！
 ---

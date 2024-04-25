@@ -6,7 +6,7 @@ cover: https://doc.mcbbs.top/logo.png
 categories:
     - 新闻资讯
 tags:
-    - 测试标签
+    - 更新日志
 description: 用于测试使用。
 ---
 

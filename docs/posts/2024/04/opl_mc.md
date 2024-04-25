@@ -6,9 +6,10 @@ cover: https://doc.mcbbs.top/logo.png
 categories:
     - 联机教程
 tags:
-    - 联机教程
+    - 原创教程
 description: 使用新版OPL联机工具联机MC的教程
 ---
+
 本教程前提是你和你的朋友已经安装了相同版本，且mod相同的minecraft.
 
 同时建议存在无正版玩家时，都使用外置登录

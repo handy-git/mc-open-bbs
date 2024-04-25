@@ -6,8 +6,7 @@ cover: https://ricedoc.handyplus.cn/wiki/PlayerIntensify.svg
 categories:
     - 服务端插件
 tags:
-    - Spigot
-    - Folia
+    - 原创插件
 description: 一款有点好用的玩家强化插件
 ---
 

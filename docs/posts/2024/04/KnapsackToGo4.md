@@ -1,13 +1,12 @@
 ---
 post: true
+title: KnapsackToGo4:强大的跨服数据同步插件第4代。
 date: 2024-04-11
 cover: https://jjaw.cn/assets/attach-siQjoJy5.gif
 categories:
     - 服务端插件
 tags:
-    - Bukkit
-    - Spigot
-title: KnapsackToGo4:强大的跨服数据同步插件第4代。
+    - 原创插件
 description: KTG4是基于bukkitAPI的我的世界服务器跨服同步插件，可在多个服务器之间同步玩家数据，支持多种同步方式。以轻松的完成多服务器之间的数据同步。未来将支持minecraft其他服务端Fabric，forge，sponge，Folia。
 ---
 

@@ -6,7 +6,7 @@ cover: https://www.spigotmc.org/data/resource_icons/81/81534.jpg?1612919814
 categories:
     - 服务端插件
 tags:
-    - 插件推荐
+    - 搬运插件
 description: 快速、高效、安全地预生成区块
 ---
 

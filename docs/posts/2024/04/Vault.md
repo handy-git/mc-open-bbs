@@ -6,7 +6,7 @@ cover: https://www.spigotmc.org/data/resource_icons/34/34315.jpg?1483592228
 categories:
     - 服务端插件
 tags:
-    - 插件推荐
+    - 搬运插件
 description: Vault 是一个权限、聊天和经济 API，可让插件轻松连接到这些系统中
 ---
 

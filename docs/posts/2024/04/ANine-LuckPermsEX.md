@@ -10,9 +10,7 @@ categories:
     - 服务端插件
 # 文章标签可多个
 tags:
-    - 插件推荐
-    - paper
-    - spigot
+    - 原创插件
 # 文章的简介
 description: ANine-LuckPermsEX可以把Anine称号同步到LP权限插件的称号上
 ---

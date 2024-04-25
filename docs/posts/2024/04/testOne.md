@@ -6,7 +6,7 @@ cover: https://doc.mcbbs.top/logo.png
 categories:
     - 服务端整合
 tags:
-    - 测试标签
+    - 原创整合
 description: 用于测试使用。
 ---
 
