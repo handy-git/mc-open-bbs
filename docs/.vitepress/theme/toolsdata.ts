@@ -6,7 +6,7 @@ export const toolsdata: Tools[] = [
         title: '文档',
         items: [
             {
-                icon: 'https://ricedoc.handyplus.cn/img/logo.png',
+                icon: 'https://ricedoc.handyplus.cn/img/logo.svg',
                 title: '米饭插件文档',
                 desc: '米饭Minecraft插件文档',
                 link: 'https://ricedoc.handyplus.cn',
@@ -18,7 +18,7 @@ export const toolsdata: Tools[] = [
         title: '资源站',
         items: [
             {
-                icon: 'https://ricedoc.handyplus.cn/img/logo.png',
+                icon: 'https://ricedoc.handyplus.cn/img/logo.svg',
                 title: 'MC中文资源站',
                 desc: 'MC中文资源站',
                 link: 'https://www.mcbbs.top',

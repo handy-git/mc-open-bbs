@@ -28,7 +28,7 @@ title: 文章标题
 # 文章发布时间
 date: 2024-04-11
 # 文章LOGO的URL地址-如无可用下面的默认地址
-cover: https://doc.mcbbs.top/logo.png
+cover: https://doc.mcbbs.top/logo.svg
 # 文章类目
 categories:
     - 新闻资讯

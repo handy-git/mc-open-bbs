@@ -166,8 +166,8 @@ export default defineConfig<ThemeConfig>({
             link: 'https://doc.mcbbs.top'
         },
         logo: {
-            light: '/logo.png',
-            dark: '/logo.png'
+            light: '/logo.svg',
+            dark: '/logo.svg'
         },
         lastUpdated: {
             text: '最后更新于'

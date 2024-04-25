@@ -13,7 +13,7 @@ export async function genFeed(config: SiteConfig) {
     id: baseUrl,
     link: baseUrl,
     language: 'zh',
-    image: `${baseUrl}/logo.png`,
+    image: `${baseUrl}/logo.svg`,
     favicon: `${baseUrl}/favicon.ico`,
     copyright:
       'Copyright © 2024-'+ new Date().getFullYear() + ' MC开源共建社区'

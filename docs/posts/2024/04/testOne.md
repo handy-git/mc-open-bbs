@@ -2,7 +2,7 @@
 post: true
 title: 第二个测试文章
 date: 2024-04-11
-cover: https://doc.mcbbs.top/logo.png
+cover: https://doc.mcbbs.top/logo.svg
 categories:
     - 服务端整合
 tags:

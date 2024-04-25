@@ -5,7 +5,7 @@
       <p class="title">基于开源分享我的世界资源</p>
       <p style="margin-top: 5px;">插件｜教程｜整合包｜新闻等</p>
     </div>
-    <div><img src="https://doc.mcbbs.top/logo.png" alt="公众号二维码" /></div>
+    <div><img src="https://doc.mcbbs.top/logo.svg" alt="公众号二维码" /></div>
     <div>
       <p>
         扫码关注MC开源共建社区公众号</p>
