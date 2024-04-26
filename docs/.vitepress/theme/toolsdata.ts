@@ -18,7 +18,7 @@ export const toolsdata: Tools[] = [
         title: '资源站',
         items: [
             {
-                icon: 'https://ricedoc.handyplus.cn/img/logo.svg',
+                icon: 'https://www.mcbbs.top/logo.svg',
                 title: 'MC中文资源站',
                 desc: 'MC中文资源站',
                 link: 'https://www.mcbbs.top',
