@@ -9,7 +9,7 @@
                 <div class="copyright" v-if="website?.showFooter">
                     Copyright © {{ new Date().getFullYear() === 2024 ? '' : '2024-' }}{{ new Date().getFullYear() }} <a
                         class="title strong" :href="website?.link">{{ webTitle }}</a>
-                        <p class="source">由<a class="strong" href="https://vitepress.dev/" target="_blank">vitepress</a>构建。主题源代码可在<a class="strong" href="https://github.com/handyplus/appbeebee" target="_blank">GitHub</a>上获取。</p>
+                        <p class="source">由<a class="strong" href="https://vitepress.dev/" target="_blank">vitepress</a>构建。主题源代码可在<a class="strong" href="https://github.com/handy-git/mc-open-bbs" target="_blank">GitHub</a>上获取。</p>
                     <a class="beian strong" target="_blank" v-if="website?.icpRecordCode"
                         href="https://beian.miit.gov.cn/">{{ website.icpRecordCode }}</a><template v-if="website?.publicSecurityRecordCode"> | </template><a class="beian strong"
                         target="_blank" v-if="website?.publicSecurityRecordCode"

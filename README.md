@@ -52,9 +52,13 @@ description: 用于测试使用。
 
 [MC开源共建社区](https://doc.mcbbs.top)
 
+## 项目代码来源
+
+[appbeebee](https://github.com/shiheme/appbeebee)
+
 ## 本项目访问次数
 
-[![Page Views Count](https://badges.toozhao.com/badges/01HW559PQ1XARG4B04PJZ8Z341/green.svg)](https://badges.toozhao.com/stats/01HW559PQ1XARG4B04PJZ8Z341 "Get your own page views count badge on badges.toozhao.com")
+[![Page Views Count](https://badges.toozhao.com/badges/01HWHXWDNMA0GR483MAY46YBWW/green.svg)](https://badges.toozhao.com/stats/01HWHXWDNMA0GR483MAY46YBWW "Get your own page views count badge on badges.toozhao.com")
 
 ## 特别提醒
 
@@ -86,4 +90,4 @@ description: 用于测试使用。
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=handyplus/appbeebee&type=Date)](https://star-history.com/#handyplus/appbeebee&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=handy-git/mc-open-bbs&type=Date)](https://star-history.com/#handy-git/mc-open-bbs&Date)

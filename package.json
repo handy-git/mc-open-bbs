@@ -7,7 +7,7 @@
   "homepage": "https://doc.mcbbs.top/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/handyplus/appbeebee"
+    "url": "https://github.com/handy-git/mc-open-bbs"
   },
   "main": "index.js",
   "scripts": {
