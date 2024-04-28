@@ -32,6 +32,8 @@ import 'vue3-toastify/dist/index.css';
 import './components/style.css'
 import './components/snow.css'  //一个 css3雪花特效，用于暗黑模式下显示雪花
 
+import Push from "./components/Push.vue";
+
 export default {
     ...DefaultTheme,
     Layout: NewLayout,  //
@@ -61,6 +63,8 @@ export default {
         app.component('Tools', Tools)
         app.component('Links', Links)
         app.component('Welcome', Welcome)
+        app.component('Push', Push)
+        
         app.use(FloatingVue, {
             themes: {
                 'tooltip': {
