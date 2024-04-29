@@ -5,10 +5,13 @@ description: 作品投稿
 aside: false
 ---
 
+
+<div style="height: 15vh;"></div>
 <div style="text-align: center; font-size: 1.5rem;margin-bottom: 1rem; font-weight: bolder;"> 欢迎提交新文章！ </div>
 <div style="text-align: center; font-size: 1.2rem;margin-bottom: 1rem;"> 点击下方按钮前往github提交新文章 </div>
-
 <Push />
+<div style="height: 15vh;"></div>
+
 
 # 提交新文章指南
 1.登录github
