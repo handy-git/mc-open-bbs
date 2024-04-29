@@ -1,6 +1,6 @@
 {
-  "projectName": "appbeebee",
-  "projectOwner": "handyplus",
+  "projectName": "mc-open-bbs",
+  "projectOwner": "handy-git",
   "files": [
     "README.md"
   ],
@@ -58,6 +58,15 @@
       "name": "张宇衡",
       "avatar_url": "https://avatars.githubusercontent.com/u/29792376?v=4",
       "profile": "https://mc.lunadeer.cn",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "panpanaw",
+      "name": "panpanaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131033097?v=4",
+      "profile": "https://github.com/panpanaw",
       "contributions": [
         "code"
       ]
