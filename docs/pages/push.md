@@ -11,20 +11,26 @@ aside: false
 <Push />
 
 # 提交新文章指南
-如果显示这个就点这个
+1.登录github
+
+2.如果显示这个就点这个
 ![](https://img.fastmirror.net/s/2024/04/28/662e581cb82d6.png)
 
-这里填写你的文章名称,要.md结尾哦
+3.这里填写你的文章名称,要.md结尾哦
 ![](https://img.fastmirror.net/s/2024/04/28/662e58e471a5b.png)
 
 
-这里写你的文章内容
+4.这里写你的文章内容
 ![](https://img.fastmirror.net/s/2024/04/28/662e592cb240d.png)
 
-写完之后点击这个按钮就可以提交拉
+5.写完之后点击这个按钮就可以提交拉
 ![](https://img.fastmirror.net/s/2024/04/28/662e595884ead.png)
 
-最后点击这个提交合并申请
-![](https://img.fastmirror.net/s/2024/04/28/662e58e471a5b.png)
+6.最后点击这个提交合并申请
+![1714387150062.png](https://img.fastmirror.net/s/2024/04/29/662f78cf90802.png)
 
-等的审核就可以了。
+7.提交描述信息
+![1714387150063.png](https://img.fastmirror.net/s/2024/04/29/662f78cfecb22.png)
+
+
+8.等的审核就可以了。
