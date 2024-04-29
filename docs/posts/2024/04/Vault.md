@@ -1,6 +1,7 @@
 ---
 post: true
 title: Vault
+titleTemplate: 一个权限、聊天和经济 API
 date: 2024-04-23
 cover: https://www.spigotmc.org/data/resource_icons/34/34315.jpg?1483592228
 categories:

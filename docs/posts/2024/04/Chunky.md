@@ -1,6 +1,7 @@
 ---
 post: true
 title: Chunky
+titleTemplate: 快速、高效、安全地预生成区块
 date: 2024-04-20
 cover: https://www.spigotmc.org/data/resource_icons/81/81534.jpg?1612919814
 categories:

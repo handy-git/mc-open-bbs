@@ -1,6 +1,7 @@
 ---
 post: true
-title: KnapsackToGo4:强大的跨服数据同步插件第4代。
+title: KnapsackToGo4
+titleTemplate: 强大的跨服数据同步插件第4代
 date: 2024-04-11
 cover: https://jjaw.cn/assets/attach-siQjoJy5.gif
 categories:

@@ -1,6 +1,7 @@
 ---
 post: true
 title: EssentialsX
+titleTemplate: 老牌基础插件
 date: 2024-04-18
 cover: https://img.dslzl.eu.org/file/36f78a8791fe95a34f5ee.png
 categories:

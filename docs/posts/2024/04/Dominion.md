@@ -1,6 +1,7 @@
 ---
 post: true
-title: Dominion - 新的领地插件，支持Folia！
+title: Dominion
+titleTemplate: 新的领地插件，支持Folia！
 # 文章发布时间
 date: 2024-04-23
 # 文章LOGO的uri地址

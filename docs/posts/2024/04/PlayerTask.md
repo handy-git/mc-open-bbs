@@ -1,6 +1,7 @@
 ---
 post: true
 title: PlayerTask
+titleTemplate: 一款有点好用的玩家任务插件
 date: 2024-04-17
 cover: https://img.fastmirror.net/s/2023/04/26/6448fb3f17b84.jpg
 categories:

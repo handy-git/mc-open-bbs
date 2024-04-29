@@ -1,6 +1,7 @@
 ---
 post: true
 title: PlayerIntensify
+titleTemplate: 一款有点好用的玩家强化插件
 date: 2024-04-19
 cover: https://ricedoc.handyplus.cn/wiki/PlayerIntensify.svg
 categories:

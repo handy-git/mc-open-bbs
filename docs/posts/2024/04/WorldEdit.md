@@ -1,6 +1,7 @@
 ---
 post: true
 title: WorldEdit
+titleTemplate: 创世神插件
 date: 2024-04-23
 cover: https://media.forgecdn.net/avatars/308/39/637390518902846753.png
 categories:

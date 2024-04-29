@@ -25,6 +25,7 @@
 ---
 post: true
 title: 文章标题
+titleTemplate: 标题的后缀
 # 文章发布时间
 date: 2024-04-11
 # 文章LOGO的URL地址-如无可用下面的默认地址

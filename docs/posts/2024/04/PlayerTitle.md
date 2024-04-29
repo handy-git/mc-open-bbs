@@ -1,6 +1,7 @@
 ---
 post: true
 title: PlayerTitle
+titleTemplate: 一款有点好用的玩家称号插件
 date: 2024-04-11
 cover: https://img.fastmirror.net/s/2023/04/26/6448fb3e8b7cd.jpg
 categories:

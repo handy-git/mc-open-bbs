@@ -1,6 +1,7 @@
 ---
 post: true
-title: MiniPlayerTitle - 玩家称号，支持Folia！
+title: MiniPlayerTitle 
+titleTemplate: 玩家称号，支持Folia！
 date: 2024-04-23
 cover: https://ssl.lunadeer.cn:14437/i/2024/04/23/66272ac499e0c.png
 categories:

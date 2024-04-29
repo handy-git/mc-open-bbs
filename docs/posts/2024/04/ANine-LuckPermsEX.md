@@ -1,6 +1,7 @@
 ---
 post: true
-title: ANine-LuckPermsEX - 九之称号的LP称号支持
+title: ANine-LuckPermsEX
+titleTemplate: 九之称号的LP称号支持
 # 文章发布时间
 date: 2024-04-23
 # 文章LOGO的uri地址

@@ -1,6 +1,7 @@
 ---
 post: true
 title: CMI
+titleTemplate: 取代EssentialX的基础插件
 date: 2024-04-19
 cover: https://www.spigotmc.org/data/resource_icons/3/3742.jpg?1546345348
 categories:
