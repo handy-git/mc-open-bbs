@@ -1,6 +1,11 @@
-# MC开源共建社区 
+# MC开源共建社区
 
 基于开源社区分享我的世界相关资源
+
+**为优质内容创作者创流量，为玩家用户谋体验，共享开放，构建良好开发社区，延展游戏的共享精神。**
+
+![提交时间](https://img.shields.io/github/last-commit/handy-git/mc-open-bbs?label=%E6%9B%B4%E6%96%B0%E4%BA%8E&style=flat-square)
+![活动频率](https://img.shields.io/github/commit-activity/m/handy-git/mc-open-bbs?label=%E6%9B%B4%E6%96%B0%E9%A2%91%E7%8E%87&logo=github&style=flat-square)
 
 欢迎pr自己资源 包括但不限于：服务端插件、服务端整合、联机教程、新闻资讯等各种MC相关内容
 
@@ -59,7 +64,7 @@ description: 用于测试使用。
 
 ## 本项目访问次数
 
-[![Page Views Count](https://badges.toozhao.com/badges/01HWHXWDNMA0GR483MAY46YBWW/green.svg)](https://badges.toozhao.com/stats/01HWHXWDNMA0GR483MAY46YBWW "Get your own page views count badge on badges.toozhao.com")
+![Page Views Count](https://badges.toozhao.com/badges/01HWHXWDNMA0GR483MAY46YBWW/green.svg)
 
 ## 特别提醒
 
