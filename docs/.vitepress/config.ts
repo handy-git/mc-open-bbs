@@ -97,6 +97,10 @@ export default defineConfig<ThemeConfig>({
         },
         lastUpdated: {
             text: '最后更新于'
+        },
+        editLink: {
+            pattern: 'https://github.com/handy-git/mc-open-bbs/edit/main/docs/:path',
+            text: '在 GitHub 上编辑此页'
         }
     },
     srcExclude: ['README.md'],
