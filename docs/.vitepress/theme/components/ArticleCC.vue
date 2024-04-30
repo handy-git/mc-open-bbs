@@ -1,6 +1,6 @@
 <template>
   <!-- 文章内页底下的文章版权声明。 -->
-  <section style="letter-spacing: 0.544px;text-align: center;opacity: 0.5;font-size: 12px;margin-bottom: 20px;"><span>-
+  <section style="letter-spacing: 1px;text-align: center;opacity: 0.5;font-size: 12px;margin-bottom: 20px;"><span>-
       END -</span></section>
   <div class="articlecc">
     <svg class="cc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">

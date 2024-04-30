@@ -169,7 +169,7 @@ onMounted(() => {
   .acontent {
     background-color: var(--vp-c-bg-alt);
     border-radius: 8px;
-    border: .5px solid var(--vp-c-gray-soft);
+    border: 1px solid var(--vp-c-gray-soft);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -489,7 +489,7 @@ onMounted(() => {
   content: "";
   position: absolute;
   top: 0;
-  left: 12.5px;
+  left: 13px;
   width: 25px;
   height: 25px;
   border-radius: 50%;

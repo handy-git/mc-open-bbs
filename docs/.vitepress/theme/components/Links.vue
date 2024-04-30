@@ -25,7 +25,7 @@ const data = ref([{
     .links {
         background-color: var(--vp-c-bg-alt);
         border-radius: 8px;
-        border: .5px solid var(--vp-c-gray-soft);
+        border: 1px solid var(--vp-c-gray-soft);
         display: flex;
         flex-direction: column;
         align-items: center;

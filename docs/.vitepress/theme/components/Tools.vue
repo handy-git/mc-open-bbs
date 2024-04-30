@@ -67,7 +67,7 @@ const data = computed(() => toolsdata)
 			flex-shrink: 1;
 			flex-grow: 1;
 			border-radius: 8px;
-			border: .5px solid var(--vp-c-gray-soft);
+			border: 1px solid var(--vp-c-gray-soft);
 			background: var(--vp-c-bg-elv);
 			transition-timing-function: cubic-bezier(.4, 0, .2, 1);
 			transition-duration: .3s;

@@ -27,12 +27,12 @@
   text-align: center;
   font-size: 0.7rem;
   background-color: var(--vp-c-bg-alt);
-  border: .5px solid var(--vp-c-gray-soft);
+  border: 1px solid var(--vp-c-gray-soft);
 
   .title {
     font-size: 0.875rem;
     font-weight: bold;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
   }
 }
 </style>
