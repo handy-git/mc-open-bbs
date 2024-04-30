@@ -54,11 +54,10 @@ const data = computed(() => toolsdata)
 	}
 
 	.ul {
-		margin: 0;
-		padding: 0;
-		margin-top: 20px;
+        padding: 0;
+        margin: 20px 0 0;
 
-		.li {
+        .li {
 			margin: 0;
 			display: flex;
 			flex-direction: column;
@@ -134,9 +133,8 @@ const data = computed(() => toolsdata)
 			.desc {
 				position: relative;
 				z-index: 10;
-				margin: 0;
-				margin-top: 0.5rem;
-				font-size: .8rem;
+                margin: 0.5rem 0 0;
+                font-size: .8rem;
 				line-height: 1.5rem;
 				opacity: .8;
 			}
@@ -144,9 +142,8 @@ const data = computed(() => toolsdata)
 			.link {
 				position: relative;
 				z-index: 10;
-				margin: 0;
-				margin-top: 10px;
-				display: flex;
+                margin: 10px 0 0;
+                display: flex;
 				font-size: .875rem;
 				line-height: 1.5rem;
 				font-weight: 500;

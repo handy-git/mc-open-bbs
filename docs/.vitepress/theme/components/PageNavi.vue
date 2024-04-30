@@ -90,12 +90,11 @@ const choose = (e: string) => {
 <style scoped>
 .h4 {
 
-  margin: 0;
-  padding: 0;
+    padding: 0;
   font-weight: bold;
   font-size: 12px;
-  margin-top: 20px;
-  display: flex;
+    margin: 20px 0 0;
+    display: flex;
   flex-direction: row;
   align-items: center;
 

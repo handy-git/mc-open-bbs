@@ -124,10 +124,9 @@ onMounted(() => {
       flex-wrap: nowrap;
       align-items: center;
       opacity: .5;
-      margin: 0;
-      margin-right: 10px;
+        margin: 0 10px 0 0;
 
-      .svg {
+        .svg {
         width: 14px;
         height: 14px;
         margin-right: 5px;
