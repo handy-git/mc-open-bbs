@@ -263,7 +263,6 @@ onMounted(() => {
   .warning {
     display: block;
     margin-left: 2px;
-    border: 1px solid transparent;
     border-radius: 6px;
     padding: 0 16px;
     line-height: 33px;

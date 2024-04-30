@@ -128,7 +128,6 @@ onMounted(() => {
 .articlelink {
     max-width: 300px;
     margin: 50px auto;
-    border-color: var(--vp-badge-info-border);
   color: var(--vp-badge-info-text);
   background-color: var(--vp-badge-info-bg);
   padding: 16px;

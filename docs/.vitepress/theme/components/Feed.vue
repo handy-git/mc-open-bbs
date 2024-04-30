@@ -74,7 +74,6 @@ const location = useBrowserLocation()
     .main:hover {
         color: var(--vp-c-text-1);
         border: 1px solid var(--vp-c-brand-1);
-        transition: color .5s;
         transition: border-color .25s;
     }
 

@@ -619,7 +619,6 @@ onMounted(() => {
 
 .message {
     position: sticky;z-index: 100;bottom:0;margin-top: 40px;margin-bottom: -40px;
-    bottom: 0;
     width: 100%;
     height:40px;
 

@@ -68,7 +68,6 @@ console.log('page',page)
   .ul {
     display: flex;
     flex-direction: column;
-    font-size: 13px;
     padding: 16px;
     font-size: 12px;
 
