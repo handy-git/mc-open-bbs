@@ -9,14 +9,5 @@
                 }
             ]
         }
-    ],
-    "builds": [
-        {
-            "src": "docs",
-            "use": "@vercel/static-build",
-            "config": {
-                "minify": false
-            }
-        }
     ]
 }
