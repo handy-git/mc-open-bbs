@@ -19,9 +19,9 @@ import { data as themeposts } from '../posts.data'
 const data = computed(() => initArchives(themeposts))
 const pushUrl = ()=>{
   const date = new Date();
-  var year = date.getFullYear();
-  var month = (1 + date.getMonth()).toString().padStart(2, '0');
-  return `https://github.com/handy-git/mc-open-bbs/new/main/docs/posts/${year}/${month}`;
+    const year = date.getFullYear()
+    const month = (1 + date.getMonth()).toString().padStart(2, '0')
+    return `https://github.com/handy-git/mc-open-bbs/new/main/docs/posts/${year}/${month}`;
 }
 </script>
 

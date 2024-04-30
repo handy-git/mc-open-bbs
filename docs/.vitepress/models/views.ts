@@ -3,21 +3,19 @@ import { getDb } from './db'
 
 export async function insertView(view: View) {
   const db = getDb();
-  const res = await db.query(
-    `INSERT INTO views
+    return await db.query(
+      `INSERT INTO views
         (id, views, created_at, status)
         VALUES
         ($1, $2, $3, $4, $5, $6, $7, $8, $9)
     `,
-    [
-      view.id,
-      view.views,
-      view.created_at,
-      view.status,
-    ]
+      [
+          view.id,
+          view.views,
+          view.created_at,
+          view.status,
+      ]
   );
-
-  return res;
 }
 
 // export async function updateView(
@@ -73,7 +71,5 @@ export async function findViewsById(id: number): Promise<View | undefined> {
     return;
   }
 
-  const cover = (res.rows[0]);
-
-  return cover;
+  return (res.rows[0]);
 }

@@ -5,7 +5,7 @@
       <div class="main">
         <div class="cover">
           <a :href="withBase(article.relativePath)" class="a">
-            <img class="img bgimg" :src="article.frontmatter?.cover" /></a>
+            <img alt="bgimg" class="img bgimg" :src="article.frontmatter?.cover" /></a>
         </div>
         <div class="msg">
           <div class="title"><a :href="withBase(article.relativePath)" class="a">

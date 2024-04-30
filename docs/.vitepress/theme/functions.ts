@@ -12,9 +12,9 @@ const { copy, isSupported } = useClipboard();
 export function formatSearch(se: any) {
     if (typeof se !== "undefined") {
         se = se.substr(1);
-        var arr = se.split("&"),
-            obj = {},
-            newarr = [];
+        const arr = se.split('&'),
+            obj = {}
+        let newarr = []
         arr.forEach((item: any) => {
             newarr = item.split("=");
             if (newarr[0]) {
@@ -108,8 +108,7 @@ export function relatebyTags(post: Post[], article: any) {
             })
         }
     }
-    let uniqueArr = Array.from(new Set(data.relate));
-    return uniqueArr
+    return Array.from(new Set(data.relate))
 }
 
 // 获取所有存档

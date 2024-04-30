@@ -94,11 +94,7 @@ const isShow = computed(() => {
   if (props.oneShow) {
     return true;
   } else {
-    if (countPages.value == 1) {
-      return false;
-    } else {
-      return true;
-    }
+    return countPages.value != 1;
   }
 });
 //总页数

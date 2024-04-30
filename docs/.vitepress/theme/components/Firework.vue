@@ -446,7 +446,7 @@ const startcanvas = () => {
                 canvaswidth / 2 + ((Math.random() - 0.5) * canvaswidth) / 6,
                 window.innerHeight
             ),
-            vel: Vector = new Vector((Math.random() - 0.5) * 1, Math.random() * -2 - 6),
+            vel: Vector = new Vector((Math.random() - 0.5), Math.random() * -2 - 6),
             acc: Vector = new Vector(),
             size: number = rocketSettings.size,
             color = {
@@ -564,12 +564,11 @@ const startcanvas = () => {
             this.exploded = true;
 
             if (this.text) {
-                const letter = generateTextParticles(
+                this.particles = generateTextParticles(
                     this.text,
                     new Vector(this.rocket.pos.x, this.rocket.pos.y),
                     this.rocket.color
                 );
-                this.particles = letter;
             } else {
                 for (let i = 0; i < 50; i++) {
                     const vx = (Math.random() - 0.5) * 7;

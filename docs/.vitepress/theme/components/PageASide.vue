@@ -38,7 +38,7 @@
                     <div class="v-popper__inner">
                       <div
                         style="width:100px;height:100px;border-radius: 4px;overflow: hidden;background-color: #ffffff;">
-                        <img v-if="theme?.website?.coffeeQrcode" :src="theme.website?.coffeeQrcode" />
+                        <img alt="website" v-if="theme?.website?.coffeeQrcode" :src="theme.website?.coffeeQrcode" />
                       </div>
                     </div>
                     <div class="v-popper__arrow-container" style="top: 14px;">
