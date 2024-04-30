@@ -90,10 +90,11 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted } from 'vue';
-import { useData } from 'vitepress';
-import { relativeTime, getGithub, handleCopy } from '../functions'
+import { onMounted, ref } from 'vue'
+import { useData } from 'vitepress'
+import { getGithub, handleCopy, relativeTime } from '../functions'
 import type { Work } from '../types'
+
 const { theme, frontmatter } = useData();
 const props = defineProps<{
   work?: Work

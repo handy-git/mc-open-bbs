@@ -52,11 +52,12 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref, toRefs } from 'vue'
-import { useData, withBase } from 'vitepress'
+import { computed } from 'vue'
+import { withBase } from 'vitepress'
 import { useStorage } from '@vueuse/core'
 import { randomOne } from '../functions'
 import { data as themeposts } from '../posts.data'
+
 const listview = useStorage('listview', 'grid')
 const viewtype = (e: string) => {
   listview.value = e;

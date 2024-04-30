@@ -13,6 +13,7 @@
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import type { Post } from '../types'
+
 const props = defineProps<{
   article?: Post
 }>();

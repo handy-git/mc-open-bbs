@@ -31,10 +31,10 @@
 	</div>
 </template>
 <script lang="ts" setup>
-import { computed, ref } from 'vue'
-import { useData, withBase } from 'vitepress'
-import type { Tools } from '../types'
+import { computed } from 'vue'
+import { useData } from 'vitepress'
 import { toolsdata } from '../toolsdata'
+
 const { theme, frontmatter } = useData();
 const data = computed(() => toolsdata)
 </script>

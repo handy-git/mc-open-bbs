@@ -32,14 +32,8 @@
 </template>
 
 <script lang="ts" setup>
-import {
-  ref,
-  reactive,
-  computed,
-  watch
-} from "vue";
-import { useRouter } from "vitepress";
-import { useUrlSearchParams } from '@vueuse/core'
+import { computed, reactive, ref, watch } from 'vue'
+import { useRouter } from 'vitepress'
 
 const props = defineProps({
   showPages: {

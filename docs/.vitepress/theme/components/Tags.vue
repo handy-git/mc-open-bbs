@@ -14,6 +14,7 @@ import { computed } from 'vue'
 import { withBase } from 'vitepress'
 import { initTags } from '../functions'
 import { data as themeposts } from '../posts.data'
+
 const data = computed(() => initTags(themeposts))
 </script>
 

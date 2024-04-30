@@ -27,7 +27,7 @@
 <script lang="ts" setup>
 import { useData } from 'vitepress'
 import { useBrowserLocation } from '@vueuse/core'
-import { handleCopy } from '../functions'
+
 const { site } = useData()
 const location = useBrowserLocation()
 </script>

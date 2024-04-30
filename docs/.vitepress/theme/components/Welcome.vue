@@ -15,8 +15,9 @@
 </template>
 
 <script lang="ts" setup>
-import type { ToastOptions } from 'vue3-toastify';
-import type { PropType } from 'vue';
+import type { ToastOptions } from 'vue3-toastify'
+import type { PropType } from 'vue'
+
 const props = defineProps({
     closeToast: Function as PropType<(e?: MouseEvent) => void>,
     toastProps: Object as PropType<ToastOptions>,

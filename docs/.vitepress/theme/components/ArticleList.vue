@@ -28,12 +28,12 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, toRefs } from 'vue'
 import { useData, withBase } from 'vitepress'
 import { useStorage } from '@vueuse/core'
+import type { Post } from '../types'
+
 const { theme, frontmatter } = useData();
 const listview = useStorage('listview', 'grid')
-import type { Post } from '../types'
 // 定义文章属性
 const props = defineProps<{
   article?: Post

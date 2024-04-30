@@ -6,17 +6,18 @@
   <PageCtrol :bread="breadrxt" :count="posts.length" />
   <Page :posts="getposts" />
   <ArticlePage :page="currentpage" :totalPages="posts.length" :showPages="per_page" @update:page="pageChange" />
-  
+
 </template>
 <script lang="ts" setup>
-import { computed, ref, onMounted, nextTick, watch } from 'vue'
+import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import { useBrowserLocation, useStorage } from '@vueuse/core'
-import { useData,useRouter } from 'vitepress'
+import { useData, useRouter } from 'vitepress'
 import { data as themeposts } from '../posts.data'
 import { formatSearch } from '../../theme/functions'
-import { toast, type ToastOptions } from 'vue3-toastify';
-import Welcome from "../../theme/components/Welcome.vue";
-import Page from "../../theme/components/Page.vue";
+import { toast, type ToastOptions } from 'vue3-toastify'
+import Welcome from '../../theme/components/Welcome.vue'
+import Page from '../../theme/components/Page.vue'
+
 const { theme } = useData();
 const welcomestate = useStorage('weclome', false, sessionStorage)
 const router = useRouter()
@@ -75,7 +76,7 @@ const pageChange = (e: any) => {
 }
 
 router.onBeforeRouteChange = (to) => {
-  
+
   const url = new URL(to, window.location.origin)
   const params = formatSearch(url.search)
   activeTag.value = params?.tag || ''

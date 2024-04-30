@@ -67,7 +67,7 @@
     </Layout>
 </template>
 <script lang="ts" setup>
-import { useData, useRouter } from 'vitepress';
+import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import Copyright from './Copyright.vue'
 

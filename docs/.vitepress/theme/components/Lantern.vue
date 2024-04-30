@@ -21,6 +21,7 @@
 </template>
 <script lang="ts" setup>
 import { useData } from 'vitepress'
+
 const { theme } = useData();
 
 </script>
@@ -51,7 +52,7 @@ const { theme } = useData();
 	.deng5 {
 		animation: swing 5s infinite ease-in-out;
 	}
-	
+
 	.deng-a {
 	  width: 100px;
 	  height: 90px;
@@ -61,7 +62,7 @@ const { theme } = useData();
 	  border-radius: 50% 50%;
 	  border: 2px solid #dc8f03
 	}
-	
+
 	.deng-b {
 	  width: 45px;
 	  height: 90px;
@@ -71,7 +72,7 @@ const { theme } = useData();
 	  border-radius: 50% 50%;
 	  border: 2px solid #dc8f03
 	}
-	
+
 	.xian {
 	  position: absolute;
 	  top: -20px;
@@ -80,7 +81,7 @@ const { theme } = useData();
 	  height: 20px;
 	  background: #dc8f03
 	}
-	
+
 	.shui-a {
 	  position: relative;
 	  width: 5px;
@@ -91,7 +92,7 @@ const { theme } = useData();
 	  background: orange;
 	  border-radius: 0 0 5px 5px
 	}
-	
+
 	.shui-b {
 	  position: absolute;
 	  top: 14px;
@@ -101,7 +102,7 @@ const { theme } = useData();
 	  background: #dc8f03;
 	  border-radius: 50%
 	}
-	
+
 	.shui-c {
 	  position: absolute;
 	  top: 18px;
@@ -111,7 +112,7 @@ const { theme } = useData();
 	  background: orange;
 	  border-radius: 0 0 0 5px
 	}
-	
+
 	.deng:before {
 	  position: absolute;
 	  top: -7px;
@@ -126,7 +127,7 @@ const { theme } = useData();
 	  background: orange;
 	  background: linear-gradient(to right, #dc8f03, orange, #dc8f03, orange, #dc8f03)
 	}
-	
+
 	.deng:after {
 	  position: absolute;
 	  bottom: -7px;
@@ -141,7 +142,7 @@ const { theme } = useData();
 	  background: orange;
 	  background: linear-gradient(to right, #dc8f03, orange, #dc8f03, orange, #dc8f03)
 	}
-	
+
 	.deng-t {
 	  font-family: 黑体, Arial, Lucida Grande, Tahoma, sans-serif;
 	  font-size: 3.2rem;
@@ -150,30 +151,30 @@ const { theme } = useData();
 	  line-height: 85px;
 	  text-align: center
 	}
-	
+
 	@-moz-keyframes swing {
 	  0% {
 	    -moz-transform: rotate(-10deg)
 	  }
-	
+
 	  50% {
 	    -moz-transform: rotate(10deg)
 	  }
-	
+
 	  100% {
 	    -moz-transform: rotate(-10deg)
 	  }
 	}
-	
+
 	@-webkit-keyframes swing {
 	  0% {
 	    -webkit-transform: rotate(-10deg)
 	  }
-	
+
 	  50% {
 	    -webkit-transform: rotate(10deg)
 	  }
-	
+
 	  100% {
 	    -webkit-transform: rotate(-10deg)
 	  }

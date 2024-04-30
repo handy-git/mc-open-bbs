@@ -1,14 +1,12 @@
-import { QueryResult, QueryResultRow } from "pg";
-
-import type { View } from '../theme/types';
-import { getDb } from "./db";
+import type { View } from '../theme/types'
+import { getDb } from './db'
 
 export async function insertView(view: View) {
   const db = getDb();
   const res = await db.query(
-    `INSERT INTO views 
-        (id, views, created_at, status) 
-        VALUES 
+    `INSERT INTO views
+        (id, views, created_at, status)
+        VALUES
         ($1, $2, $3, $4, $5, $6, $7, $8, $9)
     `,
     [

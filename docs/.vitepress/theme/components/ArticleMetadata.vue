@@ -39,11 +39,12 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, ref, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { withBase } from 'vitepress'
 import { useStorage } from '@vueuse/core'
 import type { Post } from '../types'
-import { relativeTime, formatTime, countWord } from '../functions'
+import { countWord, formatTime, relativeTime } from '../functions'
+
 const listview = useStorage('listview', 'grid')
 const dataformat = ref(0)
 const props = defineProps<{

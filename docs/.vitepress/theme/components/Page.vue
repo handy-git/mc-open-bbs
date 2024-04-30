@@ -28,9 +28,9 @@
 </template>
 
 <script lang="ts" setup>
-import { computed, toRefs } from 'vue'
-import { useData, withBase } from 'vitepress'
+import { useData } from 'vitepress'
 import { useStorage } from '@vueuse/core'
+
 const { theme, frontmatter } = useData();
 const listview = useStorage('listview', 'grid')
 const props = defineProps({

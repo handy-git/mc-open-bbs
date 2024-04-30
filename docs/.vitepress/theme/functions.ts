@@ -2,11 +2,11 @@ import type { Post } from './types'
 import dayjs from 'dayjs'
 import duration from 'dayjs/plugin/duration'
 import rTime from 'dayjs/plugin/relativeTime'
-import 'dayjs/locale/zh-cn';
+import 'dayjs/locale/zh-cn'
 import { useClipboard } from '@vueuse/core'
-const { copy, isSupported } = useClipboard();
+import { toast, type ToastOptions } from 'vue3-toastify'
 
-import { toast, type ToastOptions } from 'vue3-toastify';
+const { copy, isSupported } = useClipboard();
 
 // 文字格式转换
 export function formatSearch(se: any) {
@@ -174,7 +174,7 @@ export const getGithub = async (name: any) => {
                 pushed_at: data?.pushed_at, //最新推送
                 updated_at: data?.updated_at, //最后更新
                 stargazers_count: data?.stargazers_count, //星星数
-                open_issues_count: data?.open_issues_count, 
+                open_issues_count: data?.open_issues_count,
                 forks_count: data?.forks_count, //forks
                 license: data?.license?.name,
                 homepage: data?.homepage

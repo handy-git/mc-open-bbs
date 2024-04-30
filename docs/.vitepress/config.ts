@@ -1,8 +1,8 @@
 //模板配置文件
 import { defineConfig } from 'vitepress'
 import { genFeed } from './theme/genFeed'
-import { head } from './theme/head';
-import type { ThemeConfig } from './theme/types';
+import { head } from './theme/head'
+import type { ThemeConfig } from './theme/types'
 import mdItCustomAttrs from 'markdown-it-custom-attrs'
 import { chineseSearchOptimize, pagefindPlugin } from 'vitepress-plugin-pagefind'
 

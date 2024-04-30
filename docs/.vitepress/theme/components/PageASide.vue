@@ -83,9 +83,10 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted, computed, toRefs } from 'vue'
-import { useData } from 'vitepress';
+import { computed, onMounted, ref } from 'vue'
+import { useData } from 'vitepress'
 import { data as themeposts } from '../posts.data'
+
 const { theme } = useData();
 
 const movementx = ref(50)

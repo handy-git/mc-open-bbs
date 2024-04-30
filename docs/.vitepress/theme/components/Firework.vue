@@ -33,9 +33,10 @@
     <canvas id="letterCanvas" style="display: none"></canvas>
 </template>
 <script lang="ts" setup>
-import { onMounted, watch, ref, computed } from 'vue'
-import { useData, useRouter } from 'vitepress'
+import { computed, onMounted, ref, watch } from 'vue'
+import { useData } from 'vitepress'
 import { getRandomInt } from '../functions'
+
 const { isDark,theme } = useData();
 const newyearwordslist = theme.value?.website?.fireworkWords?theme.value.website.fireworkWords:[]
 const newyearwords = ref(newyearwordslist[getRandomInt(newyearwordslist.length)])
@@ -621,7 +622,7 @@ onMounted(() => {
     bottom: 0px;
     width: 100%;
     height:40px;
-    
+
     /* margin-bottom: 2rem; */
 
     .span {

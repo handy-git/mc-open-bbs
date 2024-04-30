@@ -54,11 +54,11 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { useData } from 'vitepress'
-import { Swiper, SwiperSlide } from 'swiper/vue';  //轮播插件。更多高级配置教程见https://swiperjs.com/
-import { Navigation } from 'swiper/modules';
-import Countdown from "../../theme/components/Countdown.vue";
-import 'swiper/css';
-import 'swiper/css/navigation';
+import { Swiper, SwiperSlide } from 'swiper/vue' //轮播插件。更多高级配置教程见https://swiperjs.com/
+import { Navigation } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
+
 const { theme } = useData();
 const modules = [Navigation]
 const list = ref(theme.value?.banner ? theme.value.banner : [])

@@ -10,6 +10,7 @@
 </template>
 <script lang="ts" setup>
 import { ref } from 'vue'
+
 const data = ref([{
     title: '公众号',
     url: 'https://'
