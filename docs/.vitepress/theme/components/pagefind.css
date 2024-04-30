@@ -105,13 +105,13 @@
 .algolia [command-dialog-header] {
     /* padding: 12px; */
 
-    padding: 0px;
+    padding: 0;
 }
 
 .algolia [command-dialog-body] {
     /* padding: 0 12px 12px; */
 
-    padding: 0px;
+    padding: 0;
 }
 
 .algolia [command-dialog-wrapper] {
@@ -281,7 +281,7 @@ display: flex;
     display: flex;
     align-items: center;
     gap: 12px;
-    padding: 0px 16px;
+    padding: 0 16px;
     color: var(--gray12);
     user-select: none;
     will-change: background, color;

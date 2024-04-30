@@ -163,7 +163,7 @@ onMounted(() => {
       }
 
       .tag:first-child {
-        margin-left: 0px;
+        margin-left: 0;
       }
     }
   }
@@ -294,7 +294,7 @@ onMounted(() => {
     justify-content: space-between;
 
     .tag {
-      margin-left: 0px!important;
+      margin-left: 0 !important;
       margin-right: 10px;
     }
     }

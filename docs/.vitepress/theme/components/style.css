@@ -128,8 +128,8 @@
 
     .home .VPDoc .content {
         max-width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .home .VPDoc.has-aside:not(.has-sidebar) .container {
@@ -321,7 +321,7 @@
 
 .aside .aside-container {
     position: sticky;
-    padding-top: 0px;
+    padding-top: 0;
     top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 32px);
     height: auto;
     overflow-y: hidden;

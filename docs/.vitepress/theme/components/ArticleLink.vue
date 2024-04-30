@@ -323,7 +323,7 @@ onMounted(() => {
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        padding: 0px 16px;
+        padding: 0 16px;
         margin: 0;
         opacity: .6;
         font-size: 12px;

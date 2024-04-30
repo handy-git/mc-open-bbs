@@ -91,7 +91,7 @@ const { Layout } = DefaultTheme
         width: 88%;
         height: fit-content;
         position: absolute;
-        bottom: 0px;
+        bottom: 0;
         left: 50%;
         transform: translate(-50%);
     }

@@ -256,7 +256,7 @@ const until = getUntilDate()
 
     .timedown {
         width: 65%;
-        margin: 0px auto;
+        margin: 0 auto;
         /* color: #FDF1E0; */
         text-align: center;
         position: relative;

@@ -147,7 +147,7 @@ const randomdata = computed(() => randomOne(themeposts))
       margin-bottom: 14px;
 
       .view {
-        margin-left: 0px;
+        margin-left: 0;
         margin-right: 20px;
       }
     }

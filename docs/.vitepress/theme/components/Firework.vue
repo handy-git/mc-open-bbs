@@ -618,8 +618,8 @@ onMounted(() => {
 }
 
 .message {
-    position: sticky;z-index: 100;bottom:0px;margin-top: 40px;margin-bottom: -40px;
-    bottom: 0px;
+    position: sticky;z-index: 100;bottom:0;margin-top: 40px;margin-bottom: -40px;
+    bottom: 0;
     width: 100%;
     height:40px;
 
@@ -651,7 +651,7 @@ onMounted(() => {
 
     .voicectl {
         position: absolute;
-        right: 0px;
+        right: 0;
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;

@@ -188,7 +188,7 @@ onMounted(() => {
   transform: translate(-50%, -50%);
   border-radius: 12px;
   width: 194px;
-  margin: 0px auto;
+  margin: 0 auto;
 
   .social {
     width: 80%;
@@ -243,7 +243,7 @@ onMounted(() => {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 24px;
+    margin: 0 24px;
     padding-top: 8px;
     position: relative;
 
@@ -281,7 +281,7 @@ onMounted(() => {
         width: 180px;
         height: 100px;
         border: 8px solid #de6745;
-        border-bottom: 0px;
+        border-bottom: 0;
         border-top-left-radius: 110px;
         border-top-right-radius: 110px;
         transform: translate(-50%, -5px) scale(.8);
@@ -470,7 +470,7 @@ onMounted(() => {
   width: 25px;
   height: 25px;
   background-color: tomato;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .authorarea:hover .eyes>.pupil:before,
@@ -488,7 +488,7 @@ onMounted(() => {
 .authorarea.happy .eyes>.pupil:after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 12.5px;
   width: 25px;
   height: 25px;

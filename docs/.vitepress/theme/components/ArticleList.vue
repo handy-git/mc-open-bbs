@@ -63,7 +63,7 @@ const props = defineProps<{
       border-radius: 8px;
       border: 1px solid var(--vp-c-gray-3);
       overflow: hidden;
-      box-shadow: rgba(61, 72, 83, 0.36) 0px 0px 1px, rgba(61, 72, 83, 0.06) 0px 2px 6px;
+      box-shadow: rgba(61, 72, 83, 0.36) 0 0 1px, rgba(61, 72, 83, 0.06) 0 2px 6px;
 
       .img {
         transition-timing-function: cubic-bezier(.4, 0, 1, 1);
