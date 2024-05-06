@@ -8,12 +8,13 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: 历史久远的记录回滚插件
 ---
 
 ## Prism -- 历史久远的记录回滚插件。
 
-**Bukkit & Sponge | 开源 | 免费 | 内置汉化 | 有搬运 | 开发者: viveleroi(原作者)/AddstarMC(维护者)**
+##### Bukkit & Sponge | 开源 | 免费 | 内置汉化 | 有搬运 | 开发者: viveleroi(原作者)/AddstarMC(维护者)
 
 * 支持版本：![Bukkit](https://img.shields.io/spiget/tested-versions/75166?label=Bukkit) Bukkit 1.8-1.12.2(老版本，不受支持，建议用CoreProtect) Sponge 1.12.2(原作者版本)
 * 社区评价：![Spiget 评分](https://img.shields.io/spiget/rating/75166?label=Spigot%20%E8%AF%84%E5%88%86&style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/AddstarMC/Prism-Bukkit?label=GitHub%20stars&style=flat-square)

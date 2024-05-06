@@ -8,6 +8,7 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: EssentialsX 是一个用于 Minecraft 服务器端的插件，提供了许多有用的功能和特性
 ---
 
