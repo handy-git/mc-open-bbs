@@ -8,6 +8,7 @@ categories:
 - 服务端插件
 tags:
 - 搬运插件
+- 付费
 description: 支持混合端且功能丰富强大的领地插件
 ---
 

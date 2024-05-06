@@ -8,6 +8,7 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: 多平台支持的json聊天插件
 ---
 
