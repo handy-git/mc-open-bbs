@@ -8,12 +8,13 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: 针对 WorldEdit 的高性能改良
 ---
 
 ## FastAsyncWorldEdit -- 针对 WorldEdit 的高性能改良
 
-**Bukkit&Sponge | 开源 | 免费 | 内置汉化 | 开发者: IntellectualSites**
+##### Bukkit&Sponge | 开源 | 免费 | 内置汉化 | 开发者: IntellectualSites
 
 * 支持版本：![Bukkit](https://img.shields.io/spiget/tested-versions/13932?label=Bukkit) Sponge(1.12.2)
 * 社区评价：![Spiget 评分](https://img.shields.io/spiget/rating/13932?label=Spigot%20%E8%AF%84%E5%88%86&style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/IntellectualSites/FastAsyncWorldEdit?label=GitHub%20stars&style=flat-square)

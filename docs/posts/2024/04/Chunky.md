@@ -8,6 +8,7 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: 快速、高效、安全地预生成区块
 ---
 

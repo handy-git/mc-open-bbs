@@ -8,12 +8,13 @@ categories:
     - 服务端插件
 tags:
     - 搬运插件
+    - 免费
 description: 封禁插件,简约设计，性能优异，轻量高效。
 ---
 
-## LibertyBans -- **封禁插件**，简约设计，性能优异，轻量高效。
+## LibertyBans -- **封禁插件**，简约设计，性能优异，轻量高效
 
-**Bukkit & Bungee & Velocty | 开源 | 免费 | 开发者：A248**
+##### Bukkit & Bungee & Velocty | 开源 | 免费 | 开发者：A248
 
 * 支持版本：![Bukkit](https://img.shields.io/spiget/tested-versions/81063?label=Bukkit) Bungge Velocity(3.0及以上)>
 * 社区评价：![Spiget 评分](https://img.shields.io/spiget/rating/81063?label=Spigot%20%E8%AF%84%E5%88%86&style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/A248/LibertyBans?label=GitHub%20stars&style=flat-square)

@@ -14,11 +14,10 @@ description: 支持混合端且功能丰富强大的领地插件
 
 ### 多平台插件推荐 [GriefDefender] -- 支持混合端且功能丰富强大的领地插件。
 
-**Bukkit & Sponge | 开源 | 付费获取支持 | 内置汉化 | 开发者: bloodshot**
+##### Bukkit & Sponge | 开源 | 付费获取支持 | 内置汉化 | 开发者: bloodshot
 
 * 支持版本：![最新](https://img.shields.io/spiget/tested-versions/68900?label=2.0%E4%BB%A5%E4%B8%8A&style=flat-square) Bukkit 1.8-1.16.5(2.0版本以前)  Sponge 1.12.2(全版本)
 * 社区评价：![Spiget 评分](https://img.shields.io/spiget/rating/68900?label=Spigot%20%E8%AF%84%E5%88%86&style=flat-square)  | ![GitHub stars](https://img.shields.io/github/stars/bloodmc/GriefDefender?label=Github%20%E6%94%B6%E8%97%8F&style=flat-square)
-
 
 #### 链接
 
@@ -39,8 +38,8 @@ GD支持的插件详见：[GDHooks](https://github.com/bloodmc/GDHooks)
 &emsp;&emsp;bloodmc是 MCPC/Cauldron 的开发者之一，其代码老练，功能与性能兼具，后又混迹于 Sponge 社区，
 现在 GriefDefender 作为一个由混合端始祖之一开发的插件，自然也会支持混合端(Mohist/Arclight/LoliServer/CatServer)。
 
-
 #### 简介
+
 - **广泛的支持**
 &emsp;&emsp;GriefDefender 作为领地插件，由于经历了 Sponge 时代的打磨，哪怕在 Bukkit/Hybrid 服务端上也有着对 Mod 一流的支持。这种支持十分恐怖，GD 能帮助您溯源 Forge 所提供的假玩家后背的真玩家(基于假玩家的放置者)，其强大的标签系统允许您在 Mod 有 bug 的情况下使用 GD 提供的高级标签来读取 NBT/Meta 定义情境来
 进行各种行为判断来阻止。
@@ -57,8 +56,10 @@ GD支持的插件详见：[GDHooks](https://github.com/bloodmc/GDHooks)
 - **主动支持别的插件**
 &emsp;&emsp;在插件的支持上，GDHooks 涵盖了市面上大部分常见商店插件及在线地图插件(Dynmap，Pl3xmap，Bluemap)，
 而对使用盔甲架的家具插件，我们更是直接挂钩家具库来识别家具类型，对 McMMO 的支持精确到了能否使用某个 Skill 。
+
 <br>&emsp;&emsp;我这里无法再赘述太多，它还支持同客户端mod CUI的协同来显示领地，唯一的不足就是 GD 必须依赖一个支持情境系统的插件来储存数据（到目前为止只支持 LuckPerms）。
 
 #### 演示
+
 ![领地玩家.gif](https://i.loli.net/2021/10/03/IguG1czZXjP7ke3.gif)
 ![领地设置1.gif](https://i.loli.net/2021/10/03/OmxSB8uT3tjvHfM.gif)![领地信息.gif](https://i.loli.net/2021/10/03/wd3XWgsEyhGHmM9.gif)
